@@ -68,6 +68,8 @@ That URL is a prediction based on the repository name, not a claim that the site
 
 **Actual account check:** GitHub returned HTTP 422 when asked to enable Pages for the private `pellera9/dutoaa_annual01` repository: the current plan does not support Pages for this repository. The prepared fallback is a separate public site repository, `pellera9/dutoaa-ai-frontier-talk`, containing the generated presentation package. Its expected URL is `https://pellera9.github.io/dutoaa-ai-frontier-talk/`. The original source repository stays private. The fallback URL should be described as live only after deployment and HTTP verification.
 
+**Publication result:** the separate [public presentation site](https://pellera9.github.io/dutoaa-ai-frontier-talk/) deployed successfully and its root URL was verified by HTTP on October 2, 2026. The private source repository’s GitHub validation workflow also passed. The public repo includes PDF exports under `public/exports/`; the private original PDF is absent. For future publication, prepare a new artifact with `python3 scripts/prepare_public_site.py --destination /path/to/new-empty-directory`, review it, update the public artifact repository and run its manual Pages workflow.
+
 ## Review and push from WSL
 
 GitHub authentication was verified with network access during package preparation. A network-restricted sandbox can produce a misleading authentication failure. If authentication expires later, sign in interactively; never paste a token into the talk, source files or chat:
