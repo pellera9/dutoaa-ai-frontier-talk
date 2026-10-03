@@ -1,0 +1,665 @@
+<mxfile host="app.diagrams.net" version="24.7.17" type="device">
+  <diagram id="discovery" name="discovery">
+    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" background="#091622">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="The discovery loop" style="text;html=1;whiteSpace=wrap;align=left;fontSize=52;fontStyle=1;fontColor=#eff6ff;" vertex="1" parent="1">
+          <mxGeometry x="50" y="70" width="1500" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="n0" value="Meaningful problem" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="50" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n1" value="AI-supported proposals" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="350" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" value="Independent checks" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="650" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" value="Human interpretation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="950" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" value="Action and learning" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="e0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n0" target="n1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n1" target="n2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n2" target="n3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n3" target="n4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n4" target="n0">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1382" y="530" />
+              <mxPoint x="182" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="caption" value="Conceptual workflow: proposals become useful through evidence and accountable decisions." style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;fontColor=#eff6ff;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="50" y="620" width="1500" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="agent" name="agent">
+    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" background="#091622">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="A bounded research agent" style="text;html=1;whiteSpace=wrap;align=left;fontSize=52;fontStyle=1;fontColor=#eff6ff;" vertex="1" parent="1">
+          <mxGeometry x="50" y="70" width="1500" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="n0" value="Goal and permissions" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="50" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n1" value="Model proposes action" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="350" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" value="Tool runs within bounds" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="650" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" value="Observe evidence" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="950" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" value="Review or stop" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="e0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n0" target="n1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n1" target="n2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n2" target="n3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n3" target="n1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1082" y="530" />
+              <mxPoint x="482" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n3" target="n4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="caption" value="Tool access and a stopping condition are explicit parts of the system." style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;fontColor=#eff6ff;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="50" y="620" width="1500" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="evidence" name="evidence">
+    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" background="#091622">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="Questions for evaluating a claim" style="text;html=1;whiteSpace=wrap;align=left;fontSize=52;fontStyle=1;fontColor=#eff6ff;" vertex="1" parent="1">
+          <mxGeometry x="50" y="70" width="1500" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="n0" value="Who reported it?" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="50" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n1" value="What exact claim?" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="350" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" value="Which artifacts?" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="650" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" value="What independent checks?" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="950" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" value="What acceptance standard?" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="e0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n0" target="n1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n1" target="n2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n2" target="n3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n3" target="n4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="caption" value="Different disciplines use different acceptance standards. These are questions, not a universal linear ranking." style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;fontColor=#eff6ff;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="50" y="620" width="1500" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="navier" name="navier">
+    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" background="#091622">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="Preserve the mathematical scope" style="text;html=1;whiteSpace=wrap;align=left;fontSize=52;fontStyle=1;fontColor=#eff6ff;" vertex="1" parent="1">
+          <mxGeometry x="50" y="70" width="1500" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="n0" value="Exact equation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="50" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n1" value="Initial data and force" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="350" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" value="Claimed conclusion" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="650" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" value="Audit formal statement" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="950" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" value="Independent scrutiny" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="e0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n0" target="n1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n1" target="n2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n2" target="n3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n3" target="n4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="caption" value="Interpretation guide; this package does not certify a mathematical proof." style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;fontColor=#eff6ff;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="50" y="620" width="1500" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="verification" name="verification">
+    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" background="#091622">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="Verification gate" style="text;html=1;whiteSpace=wrap;align=left;fontSize=52;fontStyle=1;fontColor=#eff6ff;" vertex="1" parent="1">
+          <mxGeometry x="50" y="70" width="1500" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="n0" value="Acceptance criteria" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="50" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n1" value="Generate candidate" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="350" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" value="Run meaningful checks" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="650" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" value="Accountable review" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="950" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" value="Accept or revise" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="e0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n0" target="n1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n1" target="n2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n2" target="n3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n3" target="n4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n4" target="n1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1382" y="530" />
+              <mxPoint x="482" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="caption" value="Use checks capable of rejecting a generated result; select the reviewer and criteria before acting." style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;fontColor=#eff6ff;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="50" y="620" width="1500" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="science" name="science">
+    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" background="#091622">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="Distinct scientific questions" style="text;html=1;whiteSpace=wrap;align=left;fontSize=52;fontStyle=1;fontColor=#eff6ff;" vertex="1" parent="1">
+          <mxGeometry x="50" y="70" width="1500" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="n0" value="Structure: what shape?" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="50" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n1" value="Function: what effect?" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="350" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" value="Mechanism: what process?" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="650" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" value="Intervention: what changes?" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="950" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" value="Outcome: useful and safe?" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="e0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n0" target="n1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n1" target="n2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n2" target="n3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n3" target="n4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="caption" value="A shape prediction does not by itself identify function, mechanism or therapeutic benefit." style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;fontColor=#eff6ff;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="50" y="620" width="1500" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="drug" name="drug">
+    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" background="#091622">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="Generic drug discovery evidence gates" style="text;html=1;whiteSpace=wrap;align=left;fontSize=52;fontStyle=1;fontColor=#eff6ff;" vertex="1" parent="1">
+          <mxGeometry x="50" y="70" width="1500" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="n0" value="Target hypothesis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="50" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n1" value="Candidate design" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="350" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" value="Laboratory evidence" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="650" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" value="Clinical evidence" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="950" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" value="Regulatory assessment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="e0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n0" target="n1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n1" target="n2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n2" target="n3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n3" target="n4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="caption" value="A simplified educational pipeline; stages and regulatory requirements differ by product and jurisdiction." style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;fontColor=#eff6ff;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="50" y="620" width="1500" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="wave" name="wave">
+    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" background="#091622">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="Wave Intelligence: proposed mechanism workflow" style="text;html=1;whiteSpace=wrap;align=left;fontSize=52;fontStyle=1;fontColor=#eff6ff;" vertex="1" parent="1">
+          <mxGeometry x="50" y="70" width="1500" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="n0" value="Text + structures + data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="50" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n1" value="Shared latent state" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="350" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" value="Dynamics + intervention" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="650" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" value="Observable predictions" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="950" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" value="Compare mechanisms" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="e0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n0" target="n1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n1" target="n2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n2" target="n3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n3" target="n4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n4" target="n0">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1382" y="530" />
+              <mxPoint x="182" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="caption" value="Original explanatory adaptation of Liu’s repository perspective, pp. 3–6; a research agenda, not an established validated system." style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;fontColor=#eff6ff;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="50" y="620" width="1500" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="research" name="research">
+    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" background="#091622">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="Candidate search with an evaluator" style="text;html=1;whiteSpace=wrap;align=left;fontSize=52;fontStyle=1;fontColor=#eff6ff;" vertex="1" parent="1">
+          <mxGeometry x="50" y="70" width="1500" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="n0" value="Define objective" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="50" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n1" value="Propose candidates" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="350" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" value="Evaluate constraints" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="650" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" value="Keep useful results" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="950" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" value="Independent acceptance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="e0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n0" target="n1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n1" target="n2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n2" target="n3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n3" target="n1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1082" y="530" />
+              <mxPoint x="482" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n3" target="n4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="caption" value="Conceptual abstraction of tool-connected discovery; simulation and physical validation can have different requirements." style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;fontColor=#eff6ff;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="50" y="620" width="1500" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="software" name="software">
+    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" background="#091622">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="Measure complete software work" style="text;html=1;whiteSpace=wrap;align=left;fontSize=52;fontStyle=1;fontColor=#eff6ff;" vertex="1" parent="1">
+          <mxGeometry x="50" y="70" width="1500" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="n0" value="Specify change" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="50" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n1" value="Draft patch" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="350" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" value="Test and inspect" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="650" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" value="Correct and integrate" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="950" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" value="Measure total outcome" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="e0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n0" target="n1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n1" target="n2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n2" target="n3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n3" target="n4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="caption" value="Generation time is only one component. Acceptance includes review and integration." style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;fontColor=#eff6ff;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="50" y="620" width="1500" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="knowledge" name="knowledge">
+    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" background="#091622">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="Grounded knowledge work" style="text;html=1;whiteSpace=wrap;align=left;fontSize=52;fontStyle=1;fontColor=#eff6ff;" vertex="1" parent="1">
+          <mxGeometry x="50" y="70" width="1500" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="n0" value="Approved documents" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="50" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n1" value="Source-linked draft" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="350" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" value="Check material claims" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="650" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" value="Decision owner review" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="950" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" value="Measure usefulness" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="e0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n0" target="n1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n1" target="n2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n2" target="n3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n3" target="n4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="caption" value="The final decision owner checks material claims and the completeness of the evidence." style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;fontColor=#eff6ff;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="50" y="620" width="1500" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="careers" name="careers">
+    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" background="#091622">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="Choose a pilot inside your domain" style="text;html=1;whiteSpace=wrap;align=left;fontSize=52;fontStyle=1;fontColor=#eff6ff;" vertex="1" parent="1">
+          <mxGeometry x="50" y="70" width="1500" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="n0" value="Domain problem" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="50" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n1" value="Bounded AI task" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="350" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" value="Credible evaluator" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="650" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" value="Human owner" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="950" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" value="Measured pilot" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="e0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n0" target="n1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n1" target="n2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n2" target="n3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n3" target="n4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="caption" value="Illustrative suggestions for alumni; no claims about an existing DUT alumni program." style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;fontColor=#eff6ff;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="50" y="620" width="1500" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="skills" name="skills">
+    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" background="#091622">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="A durable skill portfolio" style="text;html=1;whiteSpace=wrap;align=left;fontSize=52;fontStyle=1;fontColor=#eff6ff;" vertex="1" parent="1">
+          <mxGeometry x="50" y="70" width="1500" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="n0" value="Frame problems" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="50" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n1" value="Inspect evidence" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="350" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" value="Evaluate and integrate" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="650" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" value="Explain decisions" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="950" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" value="Keep learning" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="e0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n0" target="n1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n1" target="n2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n2" target="n3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n3" target="n4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n4" target="n0">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1382" y="530" />
+              <mxPoint x="182" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="caption" value="Recommended capabilities to practice together, rather than a forecast of job counts." style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;fontColor=#eff6ff;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="50" y="620" width="1500" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="risk" name="risk">
+    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" background="#091622">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="Match autonomy to consequence" style="text;html=1;whiteSpace=wrap;align=left;fontSize=52;fontStyle=1;fontColor=#eff6ff;" vertex="1" parent="1">
+          <mxGeometry x="50" y="70" width="1500" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="n0" value="Task and data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="50" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n1" value="Consequences of error" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="350" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" value="Strength of evaluator" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="650" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" value="Set permissions" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="950" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" value="Monitor and escalate" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="e0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n0" target="n1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n1" target="n2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n2" target="n3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n3" target="n4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="caption" value="Suggested decision aid, not a numeric risk model or legal determination." style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;fontColor=#eff6ff;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="50" y="620" width="1500" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="pilot" name="pilot">
+    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" background="#091622">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="A 30-day alumni pilot" style="text;html=1;whiteSpace=wrap;align=left;fontSize=52;fontStyle=1;fontColor=#eff6ff;" vertex="1" parent="1">
+          <mxGeometry x="50" y="70" width="1500" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="n0" value="Week 1: baseline" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="50" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n1" value="Week 2: workflow" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="350" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" value="Week 3: compare" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="650" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" value="Week 4: review" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="950" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" value="Expand / revise / stop" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="390" width="265" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="e0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n0" target="n1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n1" target="n2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n2" target="n3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n3" target="n4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="caption" value="Recommended schedule. Expand, revise and stop are all legitimate outcomes." style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;fontColor=#eff6ff;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="50" y="620" width="1500" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

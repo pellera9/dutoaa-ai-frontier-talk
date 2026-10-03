@@ -1,0 +1,42 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>03-wave-intelligence · AI at the Frontier</title><link rel="stylesheet" href="../assets/style.css"></head><body class="reader"><a class="skip" href="#document">Skip to document</a><nav><a href="../index.html#library">← Talk library</a><a href="../downloads/docs/03-wave-intelligence.md" download>Download Markdown</a><button onclick="window.print()">Print / save PDF</button></nav><main id="document"><h1>Integrating the repository’s Wave Intelligence perspective</h1>
+<p><strong>Repository source:</strong> <a href="https://github.com/pellera9/dutoaa_annual01/blob/main/wave/Wave_Intelligence.pdf">Wave_Intelligence.pdf</a>, 8 pages, titled *Wave Intelligence: Toward the Next Paradigm of AI for Scientific Discovery*, by <strong>Shengchao Liu</strong>, with affiliation stated as Wave Intelligence Lab, The Chinese University of Hong Kong. No date or publication status is asserted for this repository copy. The talk uses the paper as a perspective and research agenda.</p>
+<h2>What comes from the source</h2>
+<p>The paper motivates a progression from property prediction through structure generation toward testable mechanistic understanding (pp. 1–3). It proposes shared multimodal representations, latent evolution under conditions and interventions, and mappings back to observable quantities (pp. 3–5). Its evaluation agenda distinguishes predictive adequacy, interventional adequacy, scientific consistency and evidence for mechanistic identification (p. 6). It explicitly preserves uncertainty when several explanations fit the data and does not require a literal physical wave equation (pp. 3, 6–7).</p>
+<h2>What this presentation adds</h2>
+<p>The talk connects that research agenda to alumni practices: identify a useful perturbation, preserve competing explanations, specify a measurable outcome and choose an accountable reviewer. The engineering analogy, illustrative calculator, pilot schedule and career examples are original presentation material. They are not empirical results from the paper or descriptions of a deployed Wave Intelligence product.</p>
+<h2>Three scientific objectives</h2>
+<div class="table-scroll"><table><thead><tr><th>Objective</th><th>Example question</th><th>Typical output</th><th>Additional evidence needed</th></tr></thead><tbody><tr><td>Prediction</td><td>Which candidate has a desired property?</td><td>Estimated score or property</td><td>Held-out validation and uncertainty</td></tr><tr><td>Generation</td><td>Which structure might meet a design goal?</td><td>Candidate molecular or structural design</td><td>Feasibility, constraints and measured performance</td></tr><tr><td>Mechanistic inquiry</td><td>Which process explains observations and responses to change?</td><td>Competing dynamical hypotheses</td><td>Interventions, identifiability and independent observations</td></tr></tbody></table></div>
+<p>Progression is a conceptual organization, not an assertion that these tasks occur in a rigid historical sequence. A predictive model can remain highly valuable even if it does not establish a mechanism.</p>
+<div class="mermaid-source"><pre><code>flowchart LR
+  P[Predict properties] --&gt; G[Generate candidates]
+  G --&gt; M[Formulate mechanisms]
+  M --&gt; I[Choose a discriminating intervention]
+  I --&gt; E[Measure the response]
+  E --&gt; R[Revise hypotheses and uncertainty]
+  R --&gt; P</code></pre><button class="render-mermaid" type="button">Render Mermaid (requires internet)</button><div class="mermaid-output"></div></div>
+<h2>The proposed computational framework</h2>
+<p>An explanatory notation adapted from the manuscript is:</p>
+<pre><code>z_t       = encoder(available observations, conditions)
+z_(t+Δt)  = dynamics(z_t, intervention or operating conditions)
+x̂_(t+Δt) = decoder(z_(t+Δt))</code></pre>
+<p><code>z</code> represents a latent state. Text, geometry and measurements constrain it. Dynamics predict its evolution. The decoder makes consequences observable, so that data can confront the hypothesis. Missing modalities and noisy observations may require distributions over states rather than a single state estimate.</p>
+<div class="mermaid-source"><pre><code>flowchart TD
+  T[Text: conditions and prior knowledge] --&gt; Z[Shared latent state]
+  S[Structures: geometry and constraints] --&gt; Z
+  D[Measurements: observed behavior] --&gt; Z
+  Z --&gt; L[Latent dynamics]
+  U[Conditions and interventions] --&gt; L
+  L --&gt; O[Predicted observables]
+  O --&gt; C[Compare with independent measurements]
+  C --&gt; A[Keep or revise candidate mechanisms]
+  A --&gt; Z</code></pre><button class="render-mermaid" type="button">Render Mermaid (requires internet)</button><div class="mermaid-output"></div></div>
+<h2>An audience-friendly example</h2>
+<p><strong>Illustrative example; no actual experiment or performance claim:</strong> two proposed explanations both fit a measured process at its normal operating point. Under explanation A, changing an input should alter the response timing substantially. Under explanation B, timing should remain nearly unchanged. An appropriate safe experiment could help distinguish them. The intervention must be chosen using domain expertise and the measurement must have sufficient resolution.</p>
+<p>The interactive site shows two <strong>synthetic curves</strong> to explain this idea. The curves are simple analytic functions selected for teaching; they are neither predictions from the source paper nor real chemical kinetics. Agreement with either curve does not establish a scientific mechanism. This distinction appears next to the visualization.</p>
+<h2>Why latent explanations can be ambiguous</h2>
+<p>Several models can reproduce the same measurements. Furthermore, a transformed latent coordinate system, paired with transformed dynamics and decoders, can preserve observable outputs. A coordinate inside a model therefore should not automatically be named after a unique physical cause. Mechanistic interpretation needs additional assumptions and evidence. This is one reason intervention tests and domain constraints matter.</p>
+<h2>Suggested evaluation plan</h2>
+<ol><li>Define the hypotheses and the observable quantities each predicts.</li><li>Record relevant physical constraints, missing variables and measurement noise.</li><li>Separate training conditions from held-out conditions and interventions.</li><li>Compare predictive error over multiple time steps and modalities.</li><li>Examine whether hypotheses disagree under feasible perturbations.</li><li>Test predicted responses using independent observations.</li><li>Preserve unresolved alternatives and document what would distinguish them.</li><li>Compare joint representation-and-dynamics learning with suitable separate-component baselines, using comparable data and capacity.</li></ol>
+<p>This is a preparation exercise inspired by the perspective, not evidence that the proposed framework has met these criteria.</p>
+<h2>Attribution and repository handling</h2>
+<p>The original PDF is preserved unchanged. <code>wave/README.md</code> and <code>claude_research/prompts.md</code> were empty at the start of preparation. No content has been invented and attributed to either file. The public website artifact does not include the original PDF by default: it contains an attributed summary and explains that the original is in the repository. The PDF’s redistribution rights are not inferred from its presence in a private repository. A maintainer can choose to publish it after confirming permission.</p></main><script type="module" src="../assets/reader.js"></script></body></html>

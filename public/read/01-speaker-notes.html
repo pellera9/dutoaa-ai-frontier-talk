@@ -1,0 +1,278 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>01-speaker-notes · AI at the Frontier</title><link rel="stylesheet" href="../assets/style.css"></head><body class="reader"><a class="skip" href="#document">Skip to document</a><nav><a href="../index.html#library">← Talk library</a><a href="../downloads/docs/01-speaker-notes.md" download>Download Markdown</a><button onclick="window.print()">Print / save PDF</button></nav><main id="document"><h1>Timed speaker notes — 30 minutes</h1>
+<p><strong>AI at the Frontier of Discovery: Opportunities and Challenges in the LLM Era</strong></p>
+<p>English script with Chinese key messages. Timing includes pauses, diagram explanation, brief interactions and a short panel handoff. The schedule is a rehearsal target, not a guarantee of reading speed. Rehearse aloud and trim to your pace.</p>
+<h2>Run of show</h2>
+<div class="table-scroll"><table><thead><tr><th>Slide</th><th>Window</th><th>Title</th></tr></thead><tbody><tr><td>1</td><td>00:00–01:30</td><td>What changes when AI can help us discover?</td></tr><tr><td>2</td><td>01:30–03:30</td><td>A model becomes useful through a system</td></tr><tr><td>3</td><td>03:30–05:30</td><td>Read the evidence before repeating the headline</td></tr><tr><td>4</td><td>05:30–08:00</td><td>Navier–Stokes: a precise, attributed frontier claim</td></tr><tr><td>5</td><td>08:00–10:00</td><td>Verification is infrastructure for discovery</td></tr><tr><td>6</td><td>10:00–12:00</td><td>Scientific AI is a broader ecosystem than LLMs</td></tr><tr><td>7</td><td>12:00–14:00</td><td>Drug discovery still ends in evidence from people</td></tr><tr><td>8</td><td>14:00–16:00</td><td>From prediction and generation to testable mechanisms</td></tr><tr><td>9</td><td>16:00–17:30</td><td>Research agents need feedback from the world</td></tr><tr><td>10</td><td>17:30–19:30</td><td>In software, measure the whole task</td></tr><tr><td>11</td><td>19:30–21:00</td><td>Knowledge work depends on context and quality</td></tr><tr><td>12</td><td>21:00–23:00</td><td>Find the opportunity inside your discipline</td></tr><tr><td>13</td><td>23:00–25:00</td><td>Build the skills that make assistance dependable</td></tr><tr><td>14</td><td>25:00–26:30</td><td>Match autonomy to consequences</td></tr><tr><td>15</td><td>26:30–28:00</td><td>Run one measured pilot in the next 30 days</td></tr><tr><td>16</td><td>28:00–30:00</td><td>More ideas. Stronger evidence. Human responsibility.</td></tr></tbody></table></div>
+<h2>1. What changes when AI can help us discover?</h2>
+<p><strong>Window:</strong> 00:00–01:30. <strong>Evidence label:</strong> Framing.</p>
+<p><strong>中文核心信息:</strong> 当 AI 开始参与发现，我们的价值在哪里？</p>
+<h3>On screen</h3>
+<ul><li>AI is entering parts of the research process.</li><li>The opportunity is broader than faster writing.</li><li>Our role: define worthwhile problems and establish trustworthy answers.</li></ul>
+<h3>Suggested spoken script</h3>
+<p>Good afternoon, fellow Dalian University of Technology alumni. Let me begin with a practical question. If an AI system can help propose a proof, design an experiment, write software and prepare a technical report, where does our professional value move? For an engineering community, this question is especially concrete. Our work connects ideas to things that must function in the world. A beautiful answer is useful only when the design works, the evidence holds and someone can take responsibility for the result. Today I want to connect the frontier of AI research to those everyday responsibilities. We will look at mathematics, molecular science, research agents and professional work. We will also distinguish demonstrated results from proposed frameworks and from our own career recommendations. My central argument is that AI expands the space of ideas we can explore, while making verification more important. Please keep one task from your own work in mind throughout the talk. It might be a simulation, a literature review, a customer question or a difficult software change. At the end, I hope you can identify one useful experiment to run on that task.</p>
+<p><strong>Delivery cue:</strong> Pause and invite the audience to think of one task; do not request confidential examples.</p>
+<h3>Visual flow</h3>
+<div class="mermaid-source"><pre><code>flowchart LR
+  A[Meaningful problem] --&gt; B[AI-supported proposals]
+  B --&gt; C[Independent checks]
+  C --&gt; D[Human interpretation]
+  D --&gt; E[Action and learning]
+  E --&gt; A</code></pre><button class="render-mermaid" type="button">Render Mermaid (requires internet)</button><div class="mermaid-output"></div></div>
+<p>Conceptual workflow: proposals become useful through evidence and accountable decisions.</p>
+<h2>2. A model becomes useful through a system</h2>
+<p><strong>Window:</strong> 01:30–03:30. <strong>Evidence label:</strong> Explanation.</p>
+<p><strong>中文核心信息:</strong> 模型能力要通过工具、数据和验证转化为价值。</p>
+<h3>On screen</h3>
+<ul><li>LLM: generates language and other learned representations.</li><li>Reasoning workflow: spends effort exploring and checking steps.</li><li>Agent: uses tools, observes results and chooses further actions.</li><li>A fluent explanation does not establish correctness.</li></ul>
+<h3>Suggested spoken script</h3>
+<p>We need a few distinctions before we discuss breakthroughs. A large language model learns patterns in training data and produces outputs conditioned on its input. Those outputs can include explanations, code and candidate plans. A reasoning workflow can spend additional computation exploring intermediate steps or trying alternatives. An agent wraps a model in a loop: it chooses a tool, examines the result and decides what to do next. The complete system may include retrieval, code execution, memory, specialized scientific models and human review. These are related ideas, but they describe different parts of a system. More time spent reasoning can help with some tasks; it does not create a guarantee. Retrieval can bring relevant documents into view; it does not ensure that every retrieved statement is true. Several agents can explore different approaches; agreement among them can still reflect a shared error. Notice the feedback loop on the diagram. The most consequential part is what happens after a proposal. Does the system run a meaningful test? Does it obtain a new measurement? Does it revise the proposal when the evidence disagrees? That loop is what connects a language interface to useful scientific and engineering work.</p>
+<p><strong>Delivery cue:</strong> Walk through the loop once. Define tools as calculators, search, tests or controlled equipment.</p>
+<h3>Visual flow</h3>
+<div class="mermaid-source"><pre><code>flowchart LR
+  A[Goal and permissions] --&gt; B[Model proposes action]
+  B --&gt; C[Bounded tool execution]
+  C --&gt; D[Observe evidence]
+  D --&gt; B
+  D --&gt; E[Review or stop]</code></pre><button class="render-mermaid" type="button">Render Mermaid (requires internet)</button><div class="mermaid-output"></div></div>
+<p>Tool access and a stopping condition are explicit parts of the system.</p>
+<p><strong>Evidence:</strong> <a href="https://www.nature.com/articles/s41586-023-06792-0">Boiko et al.: Autonomous chemical research with large language models</a>, <a href="https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/">Google DeepMind: AlphaEvolve</a></p>
+<h2>3. Read the evidence before repeating the headline</h2>
+<p><strong>Window:</strong> 03:30–05:30. <strong>Evidence label:</strong> Recommendation.</p>
+<p><strong>中文核心信息:</strong> 先判断证据，再传播结论。</p>
+<h3>On screen</h3>
+<ul><li>Ask who made the claim and when.</li><li>Read the exact problem and assumptions.</li><li>Locate the paper, code, data or certificate.</li><li>Separate artifact checking, scientific acceptance and practical usefulness.</li></ul>
+<h3>Suggested spoken script</h3>
+<p>A useful habit at the frontier is to ask what kind of evidence a claim has. A report from the organization that developed a system is valuable, but it is also a report by an interested party. A research manuscript gives us details to examine. A reproducible artifact lets other people test some of those details. Independent specialists can investigate whether the result addresses the intended question. These activities are related, but they are not interchangeable. In formal mathematics, a proof assistant can check a precisely expressed theorem using its logical rules and admitted assumptions. We still need to inspect the theorem statement, definitions, dependencies and correspondence with the original mathematical question. In experimental science, even perfectly executed code does not establish that a measurement is valid or that a result generalizes. In business, a successful demonstration does not establish that a workflow saves money after review and integration. My suggested question is simple: what would change your confidence? If no possible test could change it, you may be reacting to a narrative rather than evaluating a result. This is an essential professional skill because the volume of plausible technical claims can grow much faster than our capacity to inspect them.</p>
+<p><strong>Delivery cue:</strong> Use the evidence diagram as questions to ask, not a universal ranking of all disciplines.</p>
+<h3>Visual flow</h3>
+<div class="mermaid-source"><pre><code>flowchart LR
+  A[Who reported it?] --&gt; B[What exact claim?]
+  B --&gt; C[Which artifacts?]
+  C --&gt; D[What independent checks?]
+  D --&gt; E[What acceptance standard?]</code></pre><button class="render-mermaid" type="button">Render Mermaid (requires internet)</button><div class="mermaid-output"></div></div>
+<p>Different disciplines use different acceptance standards. These are questions, not a universal linear ranking.</p>
+<p><strong>Evidence:</strong> <a href="https://www.claymath.org/millennium/navier-stokes-equation/">Clay Mathematics Institute: Navier–Stokes Equation</a>, <a href="https://www.claymath.org/millennium-problems/rules/">Clay: Rules for the Millennium Prize Problems</a>, <a href="https://github.com/openai/NavierStokesAndEuler">OpenAI: NavierStokesAndEuler Lean certificates</a></p>
+<h2>4. Navier–Stokes: a precise, attributed frontier claim</h2>
+<p><strong>Window:</strong> 05:30–08:00. <strong>Evidence label:</strong> Reported result.</p>
+<p><strong>中文核心信息:</strong> 重大数学进展，要精确表述并接受独立检验。</p>
+<h3>On screen</h3>
+<ul><li>OpenAI announced a proposed solution on September 8, 2026.</li><li>The manuscript constructs finite-time blowup with smooth forcing and positive viscosity.</li><li>The exact forced formulation matters.</li><li>Independent acceptance and prize recognition are separate.</li></ul>
+<h3>Suggested spoken script</h3>
+<p>OpenAI announced a proposed Navier–Stokes solution on September eighth, twenty twenty-six. Its manuscript describes finite-time blowup with positive viscosity, smooth external forcing, zero initial velocity and bounded kinetic energy. It also released Lean formalizations. Clay’s page still displayed Active when checked on October second. The package has not independently audited the proof or established mathematical consensus. That is the precise frontier claim I want us to examine.</p>
+<p>Here is why the distinctions matter beyond this particular announcement. Engineers work with mathematical models whose assumptions specify the domain in which a conclusion applies. Change the assumptions and you may change the question. A singularity in a continuum equation concerns the behavior of the model. It does not mean a physical fluid literally acquires an infinite speed, or that every industrial flow calculation has become invalid. A result addressing one mathematical formulation should be discussed with that formulation visible. Similarly, formal verification concerns an expressed mathematical object. The broader interpretation requires careful correspondence between that object and the question we care about. The professional lesson is to preserve scope when a result travels from a paper to a presentation and then into a decision. Responsible excitement should help us examine stronger evidence. It should not remove the conditions attached to a conclusion.</p>
+<p><strong>Delivery cue:</strong> Give approximately 30 seconds to the equation and assumptions. Keep the exact formulation visible.</p>
+<h3>Visual flow</h3>
+<div class="mermaid-source"><pre><code>flowchart LR
+  A[Exact equation] --&gt; B[Initial data and forcing]
+  B --&gt; C[Claimed conclusion]
+  C --&gt; D[Audit formal statement and assumptions]
+  D --&gt; E[Independent scrutiny]</code></pre><button class="render-mermaid" type="button">Render Mermaid (requires internet)</button><div class="mermaid-output"></div></div>
+<p>Interpretation guide; this package does not certify a mathematical proof.</p>
+<p><strong>Evidence:</strong> <a href="https://openai.com/index/navier-stokes-solution/">OpenAI: On the Navier–Stokes Millennium Prize Problem</a>, <a href="https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf">OpenAI: Finite time blowup for Navier–Stokes</a>, <a href="https://github.com/openai/NavierStokesAndEuler">OpenAI: NavierStokesAndEuler Lean certificates</a>, <a href="https://www.claymath.org/millennium/navier-stokes-equation/">Clay Mathematics Institute: Navier–Stokes Equation</a>, <a href="https://www.claymath.org/millennium-problems/rules/">Clay: Rules for the Millennium Prize Problems</a></p>
+<h2>5. Verification is infrastructure for discovery</h2>
+<p><strong>Window:</strong> 08:00–10:00. <strong>Evidence label:</strong> Recommendation.</p>
+<p><strong>中文核心信息:</strong> 把验证建设成基础设施。</p>
+<h3>On screen</h3>
+<ul><li>Specify what a valid answer must satisfy.</li><li>Use checks that can reject the proposal.</li><li>Keep provenance, assumptions and failure cases.</li><li>Spend verification effort where errors matter most.</li></ul>
+<h3>Suggested spoken script</h3>
+<p>What makes an ambitious AI workflow credible is a verification environment that can reject its outputs. Suppose an engineer asks a model to improve a design. If the only evaluator is another model asked whether the design looks good, we have a weak feedback signal. A better environment can test constraints, inspect units, compare with a trusted baseline, examine edge cases and require a qualified person to review the result. Different disciplines have different standards. A proof needs a valid argument. A software patch needs meaningful tests and integration review. A scientific hypothesis needs predictions that can be confronted with observations. A treatment needs clinical evidence under the appropriate standards. We should therefore build verification into the workflow from the beginning. Specify the acceptance criteria before generating candidates. Record where the input data came from. Preserve failed attempts because they reveal the boundary of capability. Make it possible to stop, roll back or escalate. These controls are also opportunities. Alumni with expertise in measurement, test design, scientific computing and quality assurance can help turn impressive model outputs into dependable systems. Verification is a source of productive work, because a faster stream of proposals needs a stronger process for determining which ones deserve action.</p>
+<p><strong>Delivery cue:</strong> Ask the audience to name a check in their own field, silently or with one brief response.</p>
+<h3>Visual flow</h3>
+<div class="mermaid-source"><pre><code>flowchart LR
+  A[Acceptance criteria] --&gt; B[Generate candidate]
+  B --&gt; C[Run meaningful checks]
+  C --&gt; D[Accountable review]
+  D --&gt; E{Accept?}
+  E --&gt;|Yes| F[Use with monitoring]
+  E --&gt;|No| B</code></pre><button class="render-mermaid" type="button">Render Mermaid (requires internet)</button><div class="mermaid-output"></div></div>
+<p>Use checks capable of rejecting a generated result; select the reviewer and criteria before acting.</p>
+<p><strong>Evidence:</strong> <a href="https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf">NIST: Generative Artificial Intelligence Profile, AI 600-1</a></p>
+<h2>6. Scientific AI is a broader ecosystem than LLMs</h2>
+<p><strong>Window:</strong> 10:00–12:00. <strong>Evidence label:</strong> Peer-reviewed evidence.</p>
+<p><strong>中文核心信息:</strong> 科学 AI 不只有大语言模型。</p>
+<h3>On screen</h3>
+<ul><li>AlphaFold 3 predicts structures of biomolecular complexes.</li><li>Specialized predictors and generators support different tasks.</li><li>LLMs can help connect literature, code and tools.</li><li>Structure, function, mechanism and clinical benefit require different evidence.</li></ul>
+<h3>Suggested spoken script</h3>
+<p>The LLM era is part of a wider scientific AI ecosystem. AlphaFold three is a useful example: it predicts structures of complexes involving several kinds of biomolecules. It is a specialized biomolecular model, rather than a general chatbot that has independently solved biology. Its outputs can help prioritize experiments and interpret observations. A structure prediction alone does not establish biological function or therapeutic benefit.</p>
+<p>For our purposes, think about how different tools cooperate in a research process. One tool estimates a property. Another proposes a structure. A language model helps locate relevant literature, assemble an analysis script or explain a technical result. A scientist determines whether the task and measurements are well chosen. An experiment supplies evidence that the computational process cannot invent. This division of work matters when we talk about opportunities. You do not need to train a frontier foundation model to improve a scientific workflow. You may create value by connecting domain data to a useful evaluator, improving measurement quality or making the output understandable to a practitioner. But the interfaces need care. If a generated report blurs the difference between a predicted structure and an experimentally measured effect, the workflow can become less trustworthy even while it becomes faster. Preserve the distinction between what the model estimated and what the world has shown.</p>
+<p><strong>Delivery cue:</strong> Explain the four distinct questions: what shape, what effect, what process, what patient outcome.</p>
+<h3>Visual flow</h3>
+<div class="mermaid-source"><pre><code>flowchart LR
+  A[Structure: what shape?] --&gt; B[Function: what effect?]
+  B --&gt; C[Mechanism: what process?]
+  C --&gt; D[Intervention: what changes?]
+  D --&gt; E[Outcome: useful and safe?]</code></pre><button class="render-mermaid" type="button">Render Mermaid (requires internet)</button><div class="mermaid-output"></div></div>
+<p>A shape prediction does not by itself identify function, mechanism or therapeutic benefit.</p>
+<p><strong>Evidence:</strong> <a href="https://www.nature.com/articles/s41586-024-07487-w">Abramson et al.: Accurate structure prediction of biomolecular interactions with AlphaFold 3</a></p>
+<h2>7. Drug discovery still ends in evidence from people</h2>
+<p><strong>Window:</strong> 12:00–14:00. <strong>Evidence label:</strong> Peer-reviewed evidence.</p>
+<p><strong>中文核心信息:</strong> 候选分子不等于获批药物，临床证据不可跳过。</p>
+<h3>On screen</h3>
+<ul><li>AI can support target selection and candidate design.</li><li>Rentosertib has a published phase 2a IPF trial.</li><li>That study involved 71 patients and a 12-week treatment period.</li><li>Its primary objective was safety and tolerability; broader benefit needs further evidence.</li></ul>
+<h3>Suggested spoken script</h3>
+<p>Drug discovery makes the evidence problem especially clear. Generative methods can help explore candidates, while specialized models can estimate properties worth investigating. Rentosertib provides a concrete clinical example: a published phase two a study in idiopathic pulmonary fibrosis involved seventy-one patients over twelve weeks, with safety and tolerability as the primary objective. This is evidence of a candidate reaching clinical testing. It is not, by itself, proof of durable benefit or regulatory approval.</p>
+<p>Look at the gates on the diagram. A candidate must be investigated for activity, selectivity, toxicity, manufacturing feasibility and ultimately effects in people. An attractive computational score addresses only part of that process. Failure at a later gate is informative, but costly. For alumni working in chemistry, manufacturing, software or healthcare, this creates several practical opportunities. Better data management can make experimental results reusable. Better modeling can help choose a more informative next experiment. Better documentation can help teams understand why a candidate was selected and what remains unknown. These improvements can reduce avoidable work without pretending that a laboratory assay is equivalent to a clinical outcome. When talking about AI-designed medicines, always say which part of the pipeline AI influenced and which stage the candidate has actually reached. That wording lets the audience appreciate progress while understanding the work that remains.</p>
+<p><strong>Delivery cue:</strong> Label the diagram a generic pipeline; do not imply this is the complete regulatory pathway.</p>
+<h3>Visual flow</h3>
+<div class="mermaid-source"><pre><code>flowchart LR
+  A[Target hypothesis] --&gt; B[Candidate design]
+  B --&gt; C[Laboratory evidence]
+  C --&gt; D[Clinical evidence]
+  D --&gt; E[Regulatory assessment]
+  C --&gt;|Revise or stop| B
+  D --&gt;|Revise or stop| B</code></pre><button class="render-mermaid" type="button">Render Mermaid (requires internet)</button><div class="mermaid-output"></div></div>
+<p>A simplified educational pipeline; stages and regulatory requirements differ by product and jurisdiction.</p>
+<p><strong>Evidence:</strong> <a href="https://www.nature.com/articles/s41591-025-03743-2">A generative AI-discovered TNIK inhibitor for idiopathic pulmonary fibrosis: a randomized phase 2a trial</a></p>
+<h2>8. From prediction and generation to testable mechanisms</h2>
+<p><strong>Window:</strong> 14:00–16:00. <strong>Evidence label:</strong> Proposed framework.</p>
+<p><strong>中文核心信息:</strong> 从预测与生成，走向可检验的机制假说。</p>
+<h3>On screen</h3>
+<ul><li>Repository contribution: Shengchao Liu’s Wave Intelligence perspective.</li><li>Connect text, structures and measurements through shared representations.</li><li>Model how a system evolves under conditions and interventions.</li><li>Compare alternative mechanisms using observable predictions.</li></ul>
+<h3>Suggested spoken script</h3>
+<p>Our repository contains a perspective by Shengchao Liu called Wave Intelligence. It proposes a progression from property prediction and structure generation toward mechanistic understanding. Its framework combines shared multimodal representations, latent dynamics and decoders that map model states to observable quantities. The paper sets out a research agenda rather than demonstrating a universally validated mechanism discovery system.</p>
+<p>This is an excellent bridge to an engineering mindset. A useful model should do more than fit what has already happened. We want to ask how a system will respond when we change a condition. For example, suppose two explanations both fit an observed process. Can we identify a feasible perturbation under which those explanations predict different outcomes? That experiment could be more informative than collecting additional data under unchanged conditions. This question applies to a chemical reaction, a production process or a controlled engineering system. It also makes uncertainty constructive. Instead of forcing the model to select one story prematurely, we can preserve alternative hypotheses and ask what evidence would distinguish them. The word wave in the paper evokes evolving scientific processes. It does not require the dynamics to obey a physical wave equation. The opportunity for our alumni is to combine domain constraints, measurements and computational tools so that proposed explanations become testable.</p>
+<p><strong>Delivery cue:</strong> Attribute the paper and show the prediction → generation → mechanism progression.</p>
+<h3>Visual flow</h3>
+<div class="mermaid-source"><pre><code>flowchart LR
+  A[Text + structures + measurements] --&gt; B[Shared latent state]
+  B --&gt; C[Dynamics under conditions and interventions]
+  C --&gt; D[Observable predictions]
+  D --&gt; E[Compare candidate mechanisms]
+  E --&gt; F[Discriminating experiment]
+  F --&gt; A</code></pre><button class="render-mermaid" type="button">Render Mermaid (requires internet)</button><div class="mermaid-output"></div></div>
+<p>Original explanatory adaptation of Liu’s repository perspective, pp. 3–6; a research agenda, not an established validated system.</p>
+<p><strong>Evidence:</strong> <a href="https://github.com/pellera9/dutoaa_annual01/blob/main/wave/Wave_Intelligence.pdf">Shengchao Liu: Wave Intelligence: Toward the Next Paradigm of AI for Scientific Discovery</a></p>
+<h2>9. Research agents need feedback from the world</h2>
+<p><strong>Window:</strong> 16:00–17:30. <strong>Evidence label:</strong> Mixed evidence.</p>
+<p><strong>中文核心信息:</strong> 研究智能体需要来自真实世界的反馈。</p>
+<h3>On screen</h3>
+<ul><li>Coscientist demonstrated tool-connected laboratory workflows.</li><li>AlphaEvolve connects program proposals to automated evaluation.</li><li>The evaluator determines what progress means.</li><li>Simulation success needs an appropriate bridge to reality.</li></ul>
+<h3>Suggested spoken script</h3>
+<p>We already have examples of systems organized around feedback. Coscientist connected language-model planning to search, code and experimental automation in specific chemistry tasks. AlphaEvolve combines language-model program proposals with automated evaluation and evolutionary search. DeepMind published further applications in twenty twenty-six. These are examples with defined settings, not a universal guarantee of autonomous discovery.</p>
+<p>The connection between them is the evaluator. If progress means a program runs faster, the evaluator must check both performance and correctness under relevant conditions. If progress means a better experiment, the evaluator must account for measurement quality, resource constraints and scientific relevance. A system can optimize the metric we give it while missing the outcome we wanted. This creates an important design responsibility: define the objective and the constraints together. Ask whether the environment can detect shortcuts. Ask whether a result survives a different dataset, operating condition or implementation. For an alumni community with experience across engineering and business, that combination of domain knowledge and evaluation design is a valuable place to contribute.</p>
+<p><strong>Delivery cue:</strong> Point to evaluator and acceptance gate, then transition to professional work.</p>
+<h3>Visual flow</h3>
+<div class="mermaid-source"><pre><code>flowchart LR
+  A[Objective and constraints] --&gt; B[Propose candidates]
+  B --&gt; C[Evaluator]
+  C --&gt; D[Keep useful results]
+  D --&gt; B
+  D --&gt; E[Independent acceptance]</code></pre><button class="render-mermaid" type="button">Render Mermaid (requires internet)</button><div class="mermaid-output"></div></div>
+<p>Conceptual abstraction of tool-connected discovery; simulation and physical validation can have different requirements.</p>
+<p><strong>Evidence:</strong> <a href="https://www.nature.com/articles/s41586-023-06792-0">Boiko et al.: Autonomous chemical research with large language models</a>, <a href="https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/">Google DeepMind: AlphaEvolve</a>, <a href="https://deepmind.google/blog/alphaevolve-impact/">Google DeepMind: AlphaEvolve impact update</a></p>
+<h2>10. In software, measure the whole task</h2>
+<p><strong>Window:</strong> 17:30–19:30. <strong>Evidence label:</strong> Empirical evidence.</p>
+<p><strong>中文核心信息:</strong> 衡量整个任务，而不是生成代码的速度。</p>
+<h3>On screen</h3>
+<ul><li>AI can assist drafting, debugging, tests and code exploration.</li><li>METR’s early-2025 experiment found 19% longer task time in its setting.</li><li>The February 2026 follow-up identifies major measurement biases.</li><li>Measure current tools on your own tasks, including review and rework.</li></ul>
+<h3>Suggested spoken script</h3>
+<p>Software engineering gives us a useful caution about measurement. In METR’s early twenty twenty-five randomized experiment, sixteen experienced developers completed two hundred and forty-six tasks in familiar open-source repositories. With the studied AI tools, completion time was nineteen percent longer. The finding concerns that setting and those tools. In its February twenty twenty-six follow-up, METR described substantial selection and timing problems in later data, making the current effect difficult to estimate precisely.</p>
+<p>The lesson is to test the complete workflow. Generated lines of code are an input to engineering, not its final outcome. We care about whether the change meets the requirement, integrates cleanly, avoids regressions and remains maintainable. A patch that takes seconds to generate can take hours to understand. Conversely, an assistant may help someone navigate an unfamiliar system or prepare a focused change efficiently. Both possibilities deserve measurement. For a local pilot, compare similar tasks with and without assistance. Include reading, prompting, waiting, reviewing, correcting and integration. Look at defect rates as well as elapsed time. Keep the task mix visible, because an improvement on one kind of work does not establish an improvement on every kind. A thoughtful engineer should welcome useful assistance and still insist on evidence that it helps the actual job.</p>
+<p><strong>Delivery cue:</strong> Do not plot these studies as a single current capability trend or invert time changes into identical productivity percentages.</p>
+<h3>Visual flow</h3>
+<div class="mermaid-source"><pre><code>flowchart LR
+  A[Specify change] --&gt; B[Draft patch]
+  B --&gt; C[Test and inspect]
+  C --&gt; D[Correct and integrate]
+  D --&gt; E[Measure total time and defects]</code></pre><button class="render-mermaid" type="button">Render Mermaid (requires internet)</button><div class="mermaid-output"></div></div>
+<p>Generation time is only one component. Acceptance includes review and integration.</p>
+<p><strong>Evidence:</strong> <a href="https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/">METR: Early-2025 experienced developer productivity experiment</a>, <a href="https://metr.org/blog/2026-02-24-uplift-update/">METR: We are changing our developer productivity experiment design</a></p>
+<h2>11. Knowledge work depends on context and quality</h2>
+<p><strong>Window:</strong> 19:30–21:00. <strong>Evidence label:</strong> Empirical evidence.</p>
+<p><strong>中文核心信息:</strong> 知识工作的收益取决于场景和质量。</p>
+<h3>On screen</h3>
+<ul><li>A support-agent study found heterogeneous productivity gains.</li><li>Its November 2024 manuscript version reports 15% on average.</li><li>That metric is issues resolved per hour in one work setting.</li><li>Transfer requires access to relevant knowledge and quality checks.</li></ul>
+<h3>Suggested spoken script</h3>
+<p>Knowledge work also benefits unevenly. The November twenty twenty-four version of Generative AI at Work studied five thousand one hundred and seventy-two customer support agents and reported an average fifteen percent improvement in issues resolved per hour. Gains differed across workers. Earlier versions reported fourteen percent, which is why a precise citation includes the version. This result does not give a general percentage for all office work.</p>
+<p>Consider the conditions that can make assistance useful. The task has recurring patterns. Relevant organizational knowledge is available. Outputs can be evaluated against the actual customer problem. More experienced workers may already know much of what the system offers, while someone learning the task may benefit differently. For our community, possible applications include drafting a technical explanation, searching approved documents or extracting action items from a meeting. Each needs a quality standard. A confident summary that omits a critical condition can make a decision worse. Measure whether the person can reach a correct, useful outcome with less total effort. That combines speed with comprehension and preserves the judgment that professional work requires.</p>
+<p><strong>Delivery cue:</strong> Connect support work to alumni examples without extrapolating the study’s percentage.</p>
+<h3>Visual flow</h3>
+<div class="mermaid-source"><pre><code>flowchart LR
+  A[Approved documents] --&gt; B[Source-linked draft]
+  B --&gt; C[Check material claims]
+  C --&gt; D[Decision owner review]
+  D --&gt; E[Measure usefulness]</code></pre><button class="render-mermaid" type="button">Render Mermaid (requires internet)</button><div class="mermaid-output"></div></div>
+<p>The final decision owner checks material claims and the completeness of the evidence.</p>
+<p><strong>Evidence:</strong> <a href="https://arxiv.org/abs/2304.11771v2">Brynjolfsson, Li and Raymond: Generative AI at Work, arXiv v2</a></p>
+<h2>12. Find the opportunity inside your discipline</h2>
+<p><strong>Window:</strong> 21:00–23:00. <strong>Evidence label:</strong> Illustrative opportunities.</p>
+<p><strong>中文核心信息:</strong> 机会来自专业知识与 AI 能力的结合。</p>
+<h3>On screen</h3>
+<ul><li>Engineering: explore alternatives; check constraints and simulation validity.</li><li>Science: organize evidence; design discriminating experiments.</li><li>Software: propose changes; measure integration quality.</li><li>Leadership: redesign workflows; retain accountable owners.</li></ul>
+<h3>Suggested spoken script</h3>
+<p>Let us bring this back to Dalian University of Technology alumni. The examples on this slide are proposals for local pilots, rather than claims about programs already operating at our university. An engineer might use an assistant to compare design alternatives while retaining responsibility for constraints, units and validation. A scientist might use it to organize competing explanations and identify a discriminating experiment. A software professional might ask for a focused patch while using the existing test and review process. A manager might redesign how a team prepares a decision brief, with an explicit owner for every consequential statement. The most promising starting point is a task you understand well enough to evaluate.</p>
+<p>This is why domain expertise remains useful. It lets you notice the missing assumption, choose the meaningful metric and know when a result is surprising for the wrong reason. But expertise needs a new practice alongside it: learning how to delegate bounded work to computational tools. Be explicit about the goal, input evidence, constraints, output format and acceptance test. Then inspect the result at the appropriate level. Our community can create shared learning through small, documented pilots across disciplines. A collection of well-measured experiments is more useful than a collection of impressive screenshots, because other alumni can understand where the workflow helps and where it fails.</p>
+<p><strong>Delivery cue:</strong> Use the career selector only if time permits; each option is labeled illustrative.</p>
+<h3>Visual flow</h3>
+<div class="mermaid-source"><pre><code>flowchart LR
+  A[Domain problem] --&gt; B[Bounded AI task]
+  B --&gt; C[Credible evaluator]
+  C --&gt; D[Human owner]
+  D --&gt; E[Measured pilot]</code></pre><button class="render-mermaid" type="button">Render Mermaid (requires internet)</button><div class="mermaid-output"></div></div>
+<p>Illustrative suggestions for alumni; no claims about an existing DUT alumni program.</p>
+<h2>13. Build the skills that make assistance dependable</h2>
+<p><strong>Window:</strong> 23:00–25:00. <strong>Evidence label:</strong> Recommendation.</p>
+<p><strong>中文核心信息:</strong> 会提问，更要会验证、会整合、会负责。</p>
+<h3>On screen</h3>
+<ul><li>Problem formulation and domain judgment.</li><li>Data literacy, provenance and uncertainty.</li><li>Evaluation, experimentation and tool integration.</li><li>Communication, accountability and continued learning.</li></ul>
+<h3>Suggested spoken script</h3>
+<p>What should we learn? I would organize the answer around four complementary capabilities. First, problem formulation. Describe the outcome you want and the constraints that determine success. An unclear task remains unclear when handed to a powerful model. Second, evidence literacy. Know where the input data came from, how representative it is and what uncertainty remains. Third, evaluation and integration. Learn enough scripting, testing or experimental design to connect an output to a real check. Fourth, communication and accountability. Explain what was done, what was verified and who owns the final decision.</p>
+<p>These capabilities suit different career stages. A student or early-career alumnus should still develop foundational knowledge and the ability to solve representative problems without assistance. Otherwise it becomes hard to detect an incorrect answer or keep learning from the task. An experienced practitioner can contribute domain constraints and challenging cases, while learning how to structure an efficient workflow. A leader can make room for experimentation and insist that quality is measured alongside time. You do not need to become an expert in every model architecture. You do need enough understanding to choose an appropriate tool, recognize its limits and test whether it helps. Over time, build a portfolio of workflows with evidence, rather than a list of tools you have tried. That portfolio makes your competence visible to collaborators.</p>
+<p><strong>Delivery cue:</strong> Choose one skill to practice next week; avoid claiming a forecast of job counts.</p>
+<h3>Visual flow</h3>
+<div class="mermaid-source"><pre><code>flowchart LR
+  A[Frame problems] --&gt; B[Inspect evidence]
+  B --&gt; C[Evaluate and integrate]
+  C --&gt; D[Explain decisions]
+  D --&gt; E[Keep learning]
+  E --&gt; A</code></pre><button class="render-mermaid" type="button">Render Mermaid (requires internet)</button><div class="mermaid-output"></div></div>
+<p>Recommended capabilities to practice together, rather than a forecast of job counts.</p>
+<h2>14. Match autonomy to consequences</h2>
+<p><strong>Window:</strong> 25:00–26:30. <strong>Evidence label:</strong> Recommendation.</p>
+<p><strong>中文核心信息:</strong> 自主程度要与后果和验证能力相匹配。</p>
+<h3>On screen</h3>
+<ul><li>Confident errors and unsupported citations.</li><li>Sensitive data and malicious instructions in retrieved content.</li><li>Unequal outcomes, deskilling and unclear responsibility.</li><li>Use bounded permissions, evidence checks and accountable review.</li></ul>
+<h3>Suggested spoken script</h3>
+<p>The challenges become concrete when a system can act. A wrong summary may mislead a decision. A tool-connected agent may act on instructions embedded in an untrusted document. A careless workflow may expose information that the user was not authorized to share. A team may gradually lose the ability to inspect work if everyone relies on assistance without practicing the underlying skills. These are reasons to design the workflow carefully.</p>
+<p>My recommendation is to match autonomy to consequences and verification capacity. A drafting task with public information can allow broad experimentation. An operation that changes a production system, affects a patient or releases sensitive information needs stronger controls and an accountable reviewer. Use permissions that fit the task. Keep external content as evidence to inspect, rather than treating it as authority to issue new instructions. Record meaningful actions and make stopping or reversing them possible where the process allows it. NIST’s generative AI profile offers a voluntary risk-management reference. Our concrete workflow still needs to reflect the standards and obligations of its domain. Responsible adoption can support useful experimentation by making the boundaries clear.</p>
+<p><strong>Delivery cue:</strong> Give one example: a retrieved document tells an agent to upload confidential files; the workflow must reject it.</p>
+<h3>Visual flow</h3>
+<div class="mermaid-source"><pre><code>flowchart LR
+  A[Task and data] --&gt; B[Consequences of error]
+  B --&gt; C[Strength of evaluator]
+  C --&gt; D[Set bounded permissions]
+  D --&gt; E[Monitor and escalate]</code></pre><button class="render-mermaid" type="button">Render Mermaid (requires internet)</button><div class="mermaid-output"></div></div>
+<p>Suggested decision aid, not a numeric risk model or legal determination.</p>
+<p><strong>Evidence:</strong> <a href="https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf">NIST: Generative Artificial Intelligence Profile, AI 600-1</a></p>
+<h2>15. Run one measured pilot in the next 30 days</h2>
+<p><strong>Window:</strong> 26:30–28:00. <strong>Evidence label:</strong> Recommendation.</p>
+<p><strong>中文核心信息:</strong> 30 天内做一个可衡量、可复盘的试点。</p>
+<h3>On screen</h3>
+<ul><li>Week 1: choose a task, owner and baseline.</li><li>Week 2: define inputs, checks and bounded access.</li><li>Week 3: compare matched tasks and record failures.</li><li>Week 4: decide to expand, revise or stop.</li></ul>
+<h3>Suggested spoken script</h3>
+<p>Here is a practical plan for the next thirty days. In the first week, choose one bounded task and record how it is done today. Name the person responsible for the pilot and define a quality standard. In the second week, prepare an approved set of inputs, write acceptance criteria and give the tool only the access it needs. In the third week, compare assisted and unassisted work on similar tasks. Record total time, quality, rework and failures. In the fourth week, review the evidence and decide whether to expand, revise or stop. Stopping a workflow that does not help is a useful result.</p>
+<p>Use the calculator in this package as a rehearsal for that discussion. It subtracts review and correction time from an assumed gross saving. It is an illustration, not a forecast or a measured return on investment. The important move is to ask which assumptions need local data. For alumni collaboration, share sanitized examples and evaluation methods. Keep proprietary information within the appropriate boundaries. A well-documented pilot can help another alumnus understand the conditions for success and adapt the method to a different field.</p>
+<p><strong>Delivery cue:</strong> Allow 20–30 seconds to vary review time in the calculator; use the static example if needed.</p>
+<h3>Visual flow</h3>
+<div class="mermaid-source"><pre><code>flowchart LR
+  A[Week 1: task and baseline] --&gt; B[Week 2: workflow and controls]
+  B --&gt; C[Week 3: matched comparison]
+  C --&gt; D[Week 4: review evidence]
+  D --&gt; E[Expand / revise / stop]</code></pre><button class="render-mermaid" type="button">Render Mermaid (requires internet)</button><div class="mermaid-output"></div></div>
+<p>Recommended schedule. Expand, revise and stop are all legitimate outcomes.</p>
+<h2>16. More ideas. Stronger evidence. Human responsibility.</h2>
+<p><strong>Window:</strong> 28:00–30:00. <strong>Evidence label:</strong> Synthesis.</p>
+<p><strong>中文核心信息:</strong> 让 AI 扩展探索，让证据决定行动，让人承担责任。</p>
+<h3>On screen</h3>
+<ul><li>Use AI to widen the space of possibilities.</li><li>Use evidence to decide what deserves action.</li><li>Build your career around judgment and reliable execution.</li><li>Panel question: which alumni problem has both value and a credible evaluator?</li></ul>
+<h3>Suggested spoken script</h3>
+<p>Let me close by returning to the task you had in mind at the beginning. Could AI help you explore more alternatives, organize relevant evidence or prepare a candidate solution? What would tell you whether the result is good enough? Who would take responsibility for using it? Those three questions turn a broad technological change into a practical professional experiment. The frontier is exciting because new systems can contribute to work that once seemed beyond their reach. It is also demanding because a larger supply of plausible ideas requires stronger methods for deciding which ideas deserve belief and action. For Dalian University of Technology alumni, this connects naturally to an engineering tradition: formulate the problem, understand the constraints, test the result and learn from what happens. My recommendation is to start with one useful workflow, measure it honestly and share what you learn. Let AI expand exploration. Let evidence determine action. Let people retain responsibility. Thank you. I would welcome a discussion of which problem in our alumni community has both real value and a credible way to evaluate an AI contribution.</p>
+<p><strong>Delivery cue:</strong> Use the final 45–60 seconds for one audience response or a panel handoff. The complete schedule is 30 minutes.</p>
+<h3>Visual flow</h3>
+<div class="mermaid-source"><pre><code>flowchart LR
+  A[Meaningful problem] --&gt; B[AI-supported proposals]
+  B --&gt; C[Independent checks]
+  C --&gt; D[Human interpretation]
+  D --&gt; E[Action and learning]
+  E --&gt; A</code></pre><button class="render-mermaid" type="button">Render Mermaid (requires internet)</button><div class="mermaid-output"></div></div>
+<p>Conceptual workflow: proposals become useful through evidence and accountable decisions.</p></main><script type="module" src="../assets/reader.js"></script></body></html>
