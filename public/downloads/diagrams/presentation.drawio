@@ -4,31 +4,31 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="eyebrow" value="01 / 16 · The question · 00:00–01:30" style="text;html=1;align=left;fontSize=22;fontColor=#71dfce;" vertex="1" parent="1">
+        <mxCell id="eyebrow" value="01 / 16 · A worked example · 00:00–01:30" style="text;html=1;align=left;fontSize=22;fontColor=#71dfce;" vertex="1" parent="1">
           <mxGeometry x="50" y="30" width="1500" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="title" value="What changes when AI can help us discover?" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=52;fontStyle=1;fontColor=#eff6ff;" vertex="1" parent="1">
+        <mxCell id="title" value="From a paper to a prototype: what needs checking?" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=52;fontStyle=1;fontColor=#eff6ff;" vertex="1" parent="1">
           <mxGeometry x="50" y="90" width="1500" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="takeaway" value="When AI participates in discovery, where does our value lie?" style="text;html=1;whiteSpace=wrap;align=left;fontSize=28;fontColor=#b8a6ff;" vertex="1" parent="1">
+        <mxCell id="takeaway" value="AI accelerates implementation; verification determines what we can trust." style="text;html=1;whiteSpace=wrap;align=left;fontSize=28;fontColor=#b8a6ff;" vertex="1" parent="1">
           <mxGeometry x="50" y="225" width="1500" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="points" value="&lt;div style=&quot;margin-bottom:16px&quot;&gt;• AI is entering parts of the research process.&lt;/div&gt;&lt;div style=&quot;margin-bottom:16px&quot;&gt;• The opportunity is broader than faster writing.&lt;/div&gt;&lt;div style=&quot;margin-bottom:16px&quot;&gt;• Our role: define worthwhile problems and establish trustworthy answers.&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;fontColor=#eff6ff;fontSize=24;" vertex="1" parent="1">
+        <mxCell id="points" value="&lt;div style=&quot;margin-bottom:16px&quot;&gt;• A $250,000 loss is recorded at a $100,000 reporting cap.&lt;/div&gt;&lt;div style=&quot;margin-bottom:16px&quot;&gt;• “At least” and “exactly” imply different statistical models.&lt;/div&gt;&lt;div style=&quot;margin-bottom:16px&quot;&gt;• Build the prototype, test the equations, and qualify the conclusions.&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;fontColor=#eff6ff;fontSize=24;" vertex="1" parent="1">
           <mxGeometry x="50" y="305" width="1450" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="n0" value="Meaningful problem" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+        <mxCell id="n0" value="Read the paper" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
           <mxGeometry x="50" y="600" width="265" height="96" as="geometry" />
         </mxCell>
-        <mxCell id="n1" value="AI-supported proposals" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+        <mxCell id="n1" value="Preserve assumptions" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
           <mxGeometry x="350" y="600" width="265" height="96" as="geometry" />
         </mxCell>
-        <mxCell id="n2" value="Independent checks" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+        <mxCell id="n2" value="Build the prototype" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
           <mxGeometry x="650" y="600" width="265" height="96" as="geometry" />
         </mxCell>
-        <mxCell id="n3" value="Human interpretation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+        <mxCell id="n3" value="Check equations" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
           <mxGeometry x="950" y="600" width="265" height="96" as="geometry" />
         </mxCell>
-        <mxCell id="n4" value="Action and learning" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
+        <mxCell id="n4" value="Qualify conclusions" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14283a;strokeColor=#71dfce;fontColor=#eff6ff;fontSize=23;align=center;verticalAlign=middle;spacing=12;" vertex="1" parent="1">
           <mxGeometry x="1250" y="600" width="265" height="96" as="geometry" />
         </mxCell>
         <mxCell id="e0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n0" target="n1">
@@ -43,18 +43,18 @@
         <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n3" target="n4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n4" target="n0">
+        <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#aab7c6;endArrow=block;" edge="1" parent="1" source="n3" target="n1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1382" y="740" />
-              <mxPoint x="182" y="740" />
+              <mxPoint x="1082" y="740" />
+              <mxPoint x="482" y="740" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="caption" value="Conceptual workflow: proposals become useful through evidence and accountable decisions." style="text;html=1;whiteSpace=wrap;align=left;fontSize=19;fontColor=#aab7c6;" vertex="1" parent="1">
+        <mxCell id="caption" value="An educational audit: derivatives checked, two claims need correction, and synthetic comparisons do not establish a production winner." style="text;html=1;whiteSpace=wrap;align=left;fontSize=19;fontColor=#aab7c6;" vertex="1" parent="1">
           <mxGeometry x="50" y="762" width="1500" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="refs" value="Framing · Reviewed 2026-10-02 · " style="text;html=1;whiteSpace=wrap;align=left;fontSize=18;fontColor=#aab7c6;" vertex="1" parent="1">
+        <mxCell id="refs" value="Worked example · Research audit · Reviewed 2026-10-03 · &lt;a href=&quot;https://arxiv.org/abs/2608.26286v2&quot;&gt;ZIG-PAPER&lt;/a&gt;" style="text;html=1;whiteSpace=wrap;align=left;fontSize=18;fontColor=#aab7c6;" vertex="1" parent="1">
           <mxGeometry x="50" y="830" width="1500" height="45" as="geometry" />
         </mxCell>
       </root>
@@ -115,7 +115,7 @@
         <mxCell id="caption" value="Tool access and a stopping condition are explicit parts of the system." style="text;html=1;whiteSpace=wrap;align=left;fontSize=19;fontColor=#aab7c6;" vertex="1" parent="1">
           <mxGeometry x="50" y="762" width="1500" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="refs" value="Explanation · Reviewed 2026-10-02 · &lt;a href=&quot;https://www.nature.com/articles/s41586-023-06792-0&quot;&gt;COSCI&lt;/a&gt; · &lt;a href=&quot;https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/&quot;&gt;EVOLVE&lt;/a&gt;" style="text;html=1;whiteSpace=wrap;align=left;fontSize=18;fontColor=#aab7c6;" vertex="1" parent="1">
+        <mxCell id="refs" value="Explanation · Reviewed 2026-10-03 · &lt;a href=&quot;https://www.nature.com/articles/s41586-023-06792-0&quot;&gt;COSCI&lt;/a&gt; · &lt;a href=&quot;https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/&quot;&gt;EVOLVE&lt;/a&gt;" style="text;html=1;whiteSpace=wrap;align=left;fontSize=18;fontColor=#aab7c6;" vertex="1" parent="1">
           <mxGeometry x="50" y="830" width="1500" height="45" as="geometry" />
         </mxCell>
       </root>
@@ -168,7 +168,7 @@
         <mxCell id="caption" value="Different disciplines use different acceptance standards. These are questions, not a universal linear ranking." style="text;html=1;whiteSpace=wrap;align=left;fontSize=19;fontColor=#aab7c6;" vertex="1" parent="1">
           <mxGeometry x="50" y="762" width="1500" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="refs" value="Recommendation · Reviewed 2026-10-02 · &lt;a href=&quot;https://www.claymath.org/millennium/navier-stokes-equation/&quot;&gt;CLAY&lt;/a&gt; · &lt;a href=&quot;https://www.claymath.org/millennium-problems/rules/&quot;&gt;CLAY-RULES&lt;/a&gt; · &lt;a href=&quot;https://github.com/openai/NavierStokesAndEuler&quot;&gt;NS-LEAN&lt;/a&gt;" style="text;html=1;whiteSpace=wrap;align=left;fontSize=18;fontColor=#aab7c6;" vertex="1" parent="1">
+        <mxCell id="refs" value="Recommendation · Reviewed 2026-10-03 · &lt;a href=&quot;https://www.claymath.org/millennium/navier-stokes-equation/&quot;&gt;CLAY&lt;/a&gt; · &lt;a href=&quot;https://www.claymath.org/millennium-problems/rules/&quot;&gt;CLAY-RULES&lt;/a&gt; · &lt;a href=&quot;https://github.com/openai/NavierStokesAndEuler&quot;&gt;NS-LEAN&lt;/a&gt;" style="text;html=1;whiteSpace=wrap;align=left;fontSize=18;fontColor=#aab7c6;" vertex="1" parent="1">
           <mxGeometry x="50" y="830" width="1500" height="45" as="geometry" />
         </mxCell>
       </root>
@@ -221,7 +221,7 @@
         <mxCell id="caption" value="Interpretation guide; this package does not certify a mathematical proof." style="text;html=1;whiteSpace=wrap;align=left;fontSize=19;fontColor=#aab7c6;" vertex="1" parent="1">
           <mxGeometry x="50" y="762" width="1500" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="refs" value="Reported result · Reviewed 2026-10-02 · &lt;a href=&quot;https://openai.com/index/navier-stokes-solution/&quot;&gt;NS-ANN&lt;/a&gt; · &lt;a href=&quot;https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf&quot;&gt;NS-PAPER&lt;/a&gt; · &lt;a href=&quot;https://github.com/openai/NavierStokesAndEuler&quot;&gt;NS-LEAN&lt;/a&gt; · &lt;a href=&quot;https://www.claymath.org/millennium/navier-stokes-equation/&quot;&gt;CLAY&lt;/a&gt; · &lt;a href=&quot;https://www.claymath.org/millennium-problems/rules/&quot;&gt;CLAY-RULES&lt;/a&gt;" style="text;html=1;whiteSpace=wrap;align=left;fontSize=18;fontColor=#aab7c6;" vertex="1" parent="1">
+        <mxCell id="refs" value="Reported result · Reviewed 2026-10-03 · &lt;a href=&quot;https://openai.com/index/navier-stokes-solution/&quot;&gt;NS-ANN&lt;/a&gt; · &lt;a href=&quot;https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf&quot;&gt;NS-PAPER&lt;/a&gt; · &lt;a href=&quot;https://github.com/openai/NavierStokesAndEuler&quot;&gt;NS-LEAN&lt;/a&gt; · &lt;a href=&quot;https://www.claymath.org/millennium/navier-stokes-equation/&quot;&gt;CLAY&lt;/a&gt; · &lt;a href=&quot;https://www.claymath.org/millennium-problems/rules/&quot;&gt;CLAY-RULES&lt;/a&gt;" style="text;html=1;whiteSpace=wrap;align=left;fontSize=18;fontColor=#aab7c6;" vertex="1" parent="1">
           <mxGeometry x="50" y="830" width="1500" height="45" as="geometry" />
         </mxCell>
       </root>
@@ -282,7 +282,7 @@
         <mxCell id="caption" value="Use checks capable of rejecting a generated result; select the reviewer and criteria before acting." style="text;html=1;whiteSpace=wrap;align=left;fontSize=19;fontColor=#aab7c6;" vertex="1" parent="1">
           <mxGeometry x="50" y="762" width="1500" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="refs" value="Recommendation · Reviewed 2026-10-02 · &lt;a href=&quot;https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf&quot;&gt;NIST&lt;/a&gt;" style="text;html=1;whiteSpace=wrap;align=left;fontSize=18;fontColor=#aab7c6;" vertex="1" parent="1">
+        <mxCell id="refs" value="Recommendation · Reviewed 2026-10-03 · &lt;a href=&quot;https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf&quot;&gt;NIST&lt;/a&gt;" style="text;html=1;whiteSpace=wrap;align=left;fontSize=18;fontColor=#aab7c6;" vertex="1" parent="1">
           <mxGeometry x="50" y="830" width="1500" height="45" as="geometry" />
         </mxCell>
       </root>
@@ -335,7 +335,7 @@
         <mxCell id="caption" value="A shape prediction does not by itself identify function, mechanism or therapeutic benefit." style="text;html=1;whiteSpace=wrap;align=left;fontSize=19;fontColor=#aab7c6;" vertex="1" parent="1">
           <mxGeometry x="50" y="762" width="1500" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="refs" value="Peer-reviewed evidence · Reviewed 2026-10-02 · &lt;a href=&quot;https://www.nature.com/articles/s41586-024-07487-w&quot;&gt;AF3&lt;/a&gt;" style="text;html=1;whiteSpace=wrap;align=left;fontSize=18;fontColor=#aab7c6;" vertex="1" parent="1">
+        <mxCell id="refs" value="Peer-reviewed evidence · Reviewed 2026-10-03 · &lt;a href=&quot;https://www.nature.com/articles/s41586-024-07487-w&quot;&gt;AF3&lt;/a&gt;" style="text;html=1;whiteSpace=wrap;align=left;fontSize=18;fontColor=#aab7c6;" vertex="1" parent="1">
           <mxGeometry x="50" y="830" width="1500" height="45" as="geometry" />
         </mxCell>
       </root>
@@ -388,7 +388,7 @@
         <mxCell id="caption" value="A simplified educational pipeline; stages and regulatory requirements differ by product and jurisdiction." style="text;html=1;whiteSpace=wrap;align=left;fontSize=19;fontColor=#aab7c6;" vertex="1" parent="1">
           <mxGeometry x="50" y="762" width="1500" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="refs" value="Peer-reviewed evidence · Reviewed 2026-10-02 · &lt;a href=&quot;https://www.nature.com/articles/s41591-025-03743-2&quot;&gt;DRUG&lt;/a&gt;" style="text;html=1;whiteSpace=wrap;align=left;fontSize=18;fontColor=#aab7c6;" vertex="1" parent="1">
+        <mxCell id="refs" value="Peer-reviewed evidence · Reviewed 2026-10-03 · &lt;a href=&quot;https://www.nature.com/articles/s41591-025-03743-2&quot;&gt;DRUG&lt;/a&gt;" style="text;html=1;whiteSpace=wrap;align=left;fontSize=18;fontColor=#aab7c6;" vertex="1" parent="1">
           <mxGeometry x="50" y="830" width="1500" height="45" as="geometry" />
         </mxCell>
       </root>
@@ -449,7 +449,7 @@
         <mxCell id="caption" value="Original explanatory adaptation of Liu’s repository perspective, pp. 3–6; a research agenda, not an established validated system." style="text;html=1;whiteSpace=wrap;align=left;fontSize=19;fontColor=#aab7c6;" vertex="1" parent="1">
           <mxGeometry x="50" y="762" width="1500" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="refs" value="Proposed framework · Reviewed 2026-10-02 · &lt;a href=&quot;../wave/Wave_Intelligence.pdf&quot;&gt;WAVE&lt;/a&gt;" style="text;html=1;whiteSpace=wrap;align=left;fontSize=18;fontColor=#aab7c6;" vertex="1" parent="1">
+        <mxCell id="refs" value="Proposed framework · Reviewed 2026-10-03 · &lt;a href=&quot;../wave/Wave_Intelligence.pdf&quot;&gt;WAVE&lt;/a&gt;" style="text;html=1;whiteSpace=wrap;align=left;fontSize=18;fontColor=#aab7c6;" vertex="1" parent="1">
           <mxGeometry x="50" y="830" width="1500" height="45" as="geometry" />
         </mxCell>
       </root>
@@ -510,7 +510,7 @@
         <mxCell id="caption" value="Conceptual abstraction of tool-connected discovery; simulation and physical validation can have different requirements." style="text;html=1;whiteSpace=wrap;align=left;fontSize=19;fontColor=#aab7c6;" vertex="1" parent="1">
           <mxGeometry x="50" y="762" width="1500" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="refs" value="Mixed evidence · Reviewed 2026-10-02 · &lt;a href=&quot;https://www.nature.com/articles/s41586-023-06792-0&quot;&gt;COSCI&lt;/a&gt; · &lt;a href=&quot;https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/&quot;&gt;EVOLVE&lt;/a&gt; · &lt;a href=&quot;https://deepmind.google/blog/alphaevolve-impact/&quot;&gt;EVOLVE26&lt;/a&gt;" style="text;html=1;whiteSpace=wrap;align=left;fontSize=18;fontColor=#aab7c6;" vertex="1" parent="1">
+        <mxCell id="refs" value="Mixed evidence · Reviewed 2026-10-03 · &lt;a href=&quot;https://www.nature.com/articles/s41586-023-06792-0&quot;&gt;COSCI&lt;/a&gt; · &lt;a href=&quot;https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/&quot;&gt;EVOLVE&lt;/a&gt; · &lt;a href=&quot;https://deepmind.google/blog/alphaevolve-impact/&quot;&gt;EVOLVE26&lt;/a&gt;" style="text;html=1;whiteSpace=wrap;align=left;fontSize=18;fontColor=#aab7c6;" vertex="1" parent="1">
           <mxGeometry x="50" y="830" width="1500" height="45" as="geometry" />
         </mxCell>
       </root>
@@ -563,7 +563,7 @@
         <mxCell id="caption" value="Generation time is only one component. Acceptance includes review and integration." style="text;html=1;whiteSpace=wrap;align=left;fontSize=19;fontColor=#aab7c6;" vertex="1" parent="1">
           <mxGeometry x="50" y="762" width="1500" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="refs" value="Empirical evidence · Reviewed 2026-10-02 · &lt;a href=&quot;https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/&quot;&gt;METR25&lt;/a&gt; · &lt;a href=&quot;https://metr.org/blog/2026-02-24-uplift-update/&quot;&gt;METR26&lt;/a&gt;" style="text;html=1;whiteSpace=wrap;align=left;fontSize=18;fontColor=#aab7c6;" vertex="1" parent="1">
+        <mxCell id="refs" value="Empirical evidence · Reviewed 2026-10-03 · &lt;a href=&quot;https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/&quot;&gt;METR25&lt;/a&gt; · &lt;a href=&quot;https://metr.org/blog/2026-02-24-uplift-update/&quot;&gt;METR26&lt;/a&gt;" style="text;html=1;whiteSpace=wrap;align=left;fontSize=18;fontColor=#aab7c6;" vertex="1" parent="1">
           <mxGeometry x="50" y="830" width="1500" height="45" as="geometry" />
         </mxCell>
       </root>
@@ -616,7 +616,7 @@
         <mxCell id="caption" value="The final decision owner checks material claims and the completeness of the evidence." style="text;html=1;whiteSpace=wrap;align=left;fontSize=19;fontColor=#aab7c6;" vertex="1" parent="1">
           <mxGeometry x="50" y="762" width="1500" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="refs" value="Empirical evidence · Reviewed 2026-10-02 · &lt;a href=&quot;https://arxiv.org/abs/2304.11771v2&quot;&gt;WORK&lt;/a&gt;" style="text;html=1;whiteSpace=wrap;align=left;fontSize=18;fontColor=#aab7c6;" vertex="1" parent="1">
+        <mxCell id="refs" value="Empirical evidence · Reviewed 2026-10-03 · &lt;a href=&quot;https://arxiv.org/abs/2304.11771v2&quot;&gt;WORK&lt;/a&gt;" style="text;html=1;whiteSpace=wrap;align=left;fontSize=18;fontColor=#aab7c6;" vertex="1" parent="1">
           <mxGeometry x="50" y="830" width="1500" height="45" as="geometry" />
         </mxCell>
       </root>
@@ -669,7 +669,7 @@
         <mxCell id="caption" value="Illustrative suggestions for alumni; no claims about an existing DUT alumni program." style="text;html=1;whiteSpace=wrap;align=left;fontSize=19;fontColor=#aab7c6;" vertex="1" parent="1">
           <mxGeometry x="50" y="762" width="1500" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="refs" value="Illustrative opportunities · Reviewed 2026-10-02 · " style="text;html=1;whiteSpace=wrap;align=left;fontSize=18;fontColor=#aab7c6;" vertex="1" parent="1">
+        <mxCell id="refs" value="Illustrative opportunities · Reviewed 2026-10-03 · " style="text;html=1;whiteSpace=wrap;align=left;fontSize=18;fontColor=#aab7c6;" vertex="1" parent="1">
           <mxGeometry x="50" y="830" width="1500" height="45" as="geometry" />
         </mxCell>
       </root>
@@ -730,7 +730,7 @@
         <mxCell id="caption" value="Recommended capabilities to practice together, rather than a forecast of job counts." style="text;html=1;whiteSpace=wrap;align=left;fontSize=19;fontColor=#aab7c6;" vertex="1" parent="1">
           <mxGeometry x="50" y="762" width="1500" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="refs" value="Recommendation · Reviewed 2026-10-02 · " style="text;html=1;whiteSpace=wrap;align=left;fontSize=18;fontColor=#aab7c6;" vertex="1" parent="1">
+        <mxCell id="refs" value="Recommendation · Reviewed 2026-10-03 · " style="text;html=1;whiteSpace=wrap;align=left;fontSize=18;fontColor=#aab7c6;" vertex="1" parent="1">
           <mxGeometry x="50" y="830" width="1500" height="45" as="geometry" />
         </mxCell>
       </root>
@@ -783,7 +783,7 @@
         <mxCell id="caption" value="Suggested decision aid, not a numeric risk model or legal determination." style="text;html=1;whiteSpace=wrap;align=left;fontSize=19;fontColor=#aab7c6;" vertex="1" parent="1">
           <mxGeometry x="50" y="762" width="1500" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="refs" value="Recommendation · Reviewed 2026-10-02 · &lt;a href=&quot;https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf&quot;&gt;NIST&lt;/a&gt;" style="text;html=1;whiteSpace=wrap;align=left;fontSize=18;fontColor=#aab7c6;" vertex="1" parent="1">
+        <mxCell id="refs" value="Recommendation · Reviewed 2026-10-03 · &lt;a href=&quot;https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf&quot;&gt;NIST&lt;/a&gt;" style="text;html=1;whiteSpace=wrap;align=left;fontSize=18;fontColor=#aab7c6;" vertex="1" parent="1">
           <mxGeometry x="50" y="830" width="1500" height="45" as="geometry" />
         </mxCell>
       </root>
@@ -836,7 +836,7 @@
         <mxCell id="caption" value="Recommended schedule. Expand, revise and stop are all legitimate outcomes." style="text;html=1;whiteSpace=wrap;align=left;fontSize=19;fontColor=#aab7c6;" vertex="1" parent="1">
           <mxGeometry x="50" y="762" width="1500" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="refs" value="Recommendation · Reviewed 2026-10-02 · " style="text;html=1;whiteSpace=wrap;align=left;fontSize=18;fontColor=#aab7c6;" vertex="1" parent="1">
+        <mxCell id="refs" value="Recommendation · Reviewed 2026-10-03 · " style="text;html=1;whiteSpace=wrap;align=left;fontSize=18;fontColor=#aab7c6;" vertex="1" parent="1">
           <mxGeometry x="50" y="830" width="1500" height="45" as="geometry" />
         </mxCell>
       </root>
@@ -897,7 +897,7 @@
         <mxCell id="caption" value="Conceptual workflow: proposals become useful through evidence and accountable decisions." style="text;html=1;whiteSpace=wrap;align=left;fontSize=19;fontColor=#aab7c6;" vertex="1" parent="1">
           <mxGeometry x="50" y="762" width="1500" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="refs" value="Synthesis · Reviewed 2026-10-02 · " style="text;html=1;whiteSpace=wrap;align=left;fontSize=18;fontColor=#aab7c6;" vertex="1" parent="1">
+        <mxCell id="refs" value="Synthesis · Reviewed 2026-10-03 · " style="text;html=1;whiteSpace=wrap;align=left;fontSize=18;fontColor=#aab7c6;" vertex="1" parent="1">
           <mxGeometry x="50" y="830" width="1500" height="45" as="geometry" />
         </mxCell>
       </root>

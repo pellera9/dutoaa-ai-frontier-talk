@@ -189,3 +189,16 @@ flowchart LR
   C --> D[Week 4: review evidence]
   D --> E[Expand / revise / stop]
 ```
+
+## From a paper to a checked prototype
+
+An educational audit: derivatives checked, two claims need correction, and synthetic comparisons do not establish a production winner.
+
+```mermaid
+flowchart LR
+  A[Read the paper] --> B[Preserve assumptions]
+  B --> C[Build the prototype]
+  C --> D[Check equations]
+  D --> E[Qualify conclusions]
+  D --> B
+```

@@ -196,6 +196,7 @@
     ['06-prompts-and-exercises', 'Prompts & exercises', 'Practical templates and short audience interactions.'],
     ['07-production-and-publishing', 'Rehearsal & publishing', 'Presentation controls, draw.io editing, local preview and GitHub Pages.'],
     ['08-evidence-register', 'Evidence register', 'Sources, versions, review scope and factual limitations.'],
+    ['10-latent-space-zig', 'Paper to prototype: the opening example', 'Complete equation audit, worked insurance example, runnable XGBoost code and synthetic comparisons.'],
     ['09-fact-check-checklist', 'Pre-event fact check', 'Review claims before the event; keep automation separate from acceptance.']
   ];
   documents.filter(([id]) => speakerVersion || !['01-speaker-notes', '07-production-and-publishing'].includes(id)).forEach(([id, title, description]) => { const card = el('article', undefined, 'card'); card.append(el('h3', title), el('p', description), link('Read document →', `read/${id}.html`)); $('document-list').append(card); });

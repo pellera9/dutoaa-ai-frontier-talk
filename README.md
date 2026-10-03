@@ -7,13 +7,15 @@ A 30-minute Dalian University of Technology alumni talk, in English.
 - [Speaker version](https://pellera9.github.io/dutoaa-ai-frontier-talk/#slide-1)
 - [Client version](https://pellera9.github.io/dutoaa-ai-frontier-talk/client.html#slide-1)
 
+- [Opening example: complete paper audit](https://pellera9.github.io/dutoaa-ai-frontier-talk/read/10-latent-space-zig.html)
+- [Runnable Python example](public/downloads/research/latent_space_zig_xgboost.py)
 - [Speaker script](https://pellera9.github.io/dutoaa-ai-frontier-talk/read/01-speaker-notes.html)
 - [Presentation PDF](public/exports/presentation.pdf)
 - [Speaker-notes PDF](public/exports/speaker-notes.pdf)
 - [Editable draw.io deck](public/downloads/diagrams/presentation.drawio)
 - [Preparation package ZIP](public/downloads/talk-package.zip)
 
-The website includes evidence filtering, a rehearsal timer, speaker notes, alumni career examples and synthetic teaching demos. Sources were reviewed through October 2, 2026. Research claims remain attributed and qualified.
+The website includes evidence filtering, a rehearsal timer, speaker notes, alumni career examples and synthetic teaching demos. Sources were reviewed through October 2, 2026; the opening paper audit was added October 3. Research claims remain attributed and qualified.
 
 This public repository contains the generated presentation artifact. The original source repository remains private. The original Wave Intelligence PDF is not redistributed; an attributed explanation is included.
 

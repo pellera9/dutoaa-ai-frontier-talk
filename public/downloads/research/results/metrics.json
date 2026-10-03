@@ -1,0 +1,425 @@
+{
+  "notice": "Synthetic demonstration, not a reproduction of the paper, production evidence or a superiority claim.",
+  "scenario": "lognormal",
+  "seed": 20261003,
+  "training_parameters": {
+    "tree_method": "hist",
+    "device": "cpu",
+    "max_depth": 3,
+    "eta": 0.05,
+    "lambda": 1.0,
+    "min_child_weight": 5.0,
+    "max_delta_step": 1.0,
+    "subsample": 0.9,
+    "colsample_bytree": 1.0,
+    "seed": 20261003,
+    "nthread": 2
+  },
+  "feature_schema": [
+    "normal_0",
+    "normal_1",
+    "normal_2",
+    "binary_3",
+    "normal_4"
+  ],
+  "rows": 5000,
+  "rounds_limit": 250,
+  "split_sizes": {
+    "train": 3000,
+    "validation": 1000,
+    "test": 1000
+  },
+  "cap": 100000,
+  "training_anchor": 4882.690495226769,
+  "high_loss_threshold_from_training": 56694.74007944985,
+  "latent_structure": {
+    "s": 4882.690495226769,
+    "lam": 0.15,
+    "alpha": 13.005258519026638,
+    "cap": 100000
+  },
+  "latent_profile_candidates": [
+    {
+      "lambda": 0.15,
+      "alpha": 13.005258519026638,
+      "eta0": 0.039260599176991304,
+      "training_raw_nll": 9.786040046169903
+    },
+    {
+      "lambda": 0.25,
+      "alpha": 4.8783115440948075,
+      "eta0": 0.10528971725194637,
+      "training_raw_nll": 9.795046255453435
+    },
+    {
+      "lambda": 0.4,
+      "alpha": 2.0597730263283998,
+      "eta0": 0.2585842634041904,
+      "training_raw_nll": 9.813115503141157
+    },
+    {
+      "lambda": 0.6,
+      "alpha": 1.029301782659117,
+      "eta0": 0.5506708172599635,
+      "training_raw_nll": 9.84159904487393
+    },
+    {
+      "lambda": 0.85,
+      "alpha": 0.5935225983326059,
+      "eta0": 1.027557885467192,
+      "training_raw_nll": 9.877244115367995
+    }
+  ],
+  "censored_hurdle_profile": [
+    {
+      "lambda": 1.0,
+      "alpha": 0.46582749919638233,
+      "eta0": 1.3592478348999768,
+      "training_raw_nll": 9.896580324011678
+    }
+  ],
+  "versions": {
+    "python": "3.14.4",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "xgboost": "3.4.1"
+  },
+  "self_test": {
+    "checks": [
+      "logistic finite differences",
+      "ordinary and censored Gamma finite differences, including Q underflow",
+      "independent integer-shape survival formula and deep-tail Newton balance",
+      "bounded expectation versus numerical integration",
+      "original-scale moment stability at extreme means",
+      "scale-anchor invariance with Jacobian and corresponding mean shift",
+      "counterexamples to nonnegative Eq.21 and censored Eq.34 stationary mean"
+    ],
+    "paper_boundary_deviance_counterexample": -1.478924767641273,
+    "paper_censored_mean_score_counterexample": -2.000834410060235
+  },
+  "oracle_bounded_mean_rmse": 18438.98852348756,
+  "model_details": {
+    "XGBoost Tweedie": {
+      "conditional": null,
+      "cap_probability": null,
+      "power": 1.5,
+      "phi_scaled_diagnostic": 34.004650928550284,
+      "occurrence_kind": "validation-dispersion diagnostic, not a fitted classifier",
+      "best_iteration": 92
+    },
+    "Ordinary hurdle Gamma": {
+      "cap_probability": null,
+      "best_iteration": 42,
+      "occurrence_best_iteration": 117,
+      "severity_best_iteration": 42
+    },
+    "Censored hurdle Gamma": {
+      "best_iteration": 96,
+      "initial_margins": [
+        0.03867148532762506,
+        1.3592478348999768
+      ],
+      "structure": {
+        "s": 4882.690495226769,
+        "lam": 1.0,
+        "alpha": 0.46582749919638233,
+        "cap": 100000
+      }
+    },
+    "Latent power-Gamma hurdle": {
+      "best_iteration": 82,
+      "initial_margins": [
+        0.03867148532762506,
+        0.039260599176991304
+      ],
+      "structure": {
+        "s": 4882.690495226769,
+        "lam": 0.15,
+        "alpha": 13.005258519026638,
+        "cap": 100000
+      }
+    }
+  },
+  "metrics": {
+    "XGBoost Tweedie": {
+      "rmse": 18828.359204998873,
+      "mae": 9808.556027069293,
+      "predicted_mean": 7485.69677734375,
+      "actual_mean": 7738.3521891585,
+      "occurrence_predicted": 0.06458265334367752,
+      "occurrence_observed": 0.494,
+      "occurrence_brier": 0.42752693614600135,
+      "occurrence_logloss": 1.3659078616769984,
+      "occurrence_ece_10bins": 0.42941733746975663,
+      "occurrence_calibration": [
+        {
+          "bin": 0,
+          "n": 901,
+          "predicted": 0.05920442193746567,
+          "observed": 0.46503884572697
+        },
+        {
+          "bin": 1,
+          "n": 99,
+          "predicted": 0.11353008449077606,
+          "observed": 0.7575757575757576
+        }
+      ],
+      "severity_predicted_on_observed_positive": null,
+      "severity_observed_positive": 15664.680544855264,
+      "high_loss_n": 45,
+      "high_loss_rmse": 77302.0753577617,
+      "high_loss_mean_error": -75472.63252882405,
+      "capped_n": 27,
+      "capped_rmse": 85922.50969034611,
+      "cap_frequency_observed": 0.027,
+      "cap_frequency_predicted": null
+    },
+    "Ordinary hurdle Gamma": {
+      "rmse": 19002.711981539083,
+      "mae": 9755.436085086212,
+      "predicted_mean": 7263.783203125,
+      "actual_mean": 7738.3521891585,
+      "occurrence_predicted": 0.4968317151069641,
+      "occurrence_observed": 0.494,
+      "occurrence_brier": 0.20627218426606594,
+      "occurrence_logloss": 0.5990265709571541,
+      "occurrence_ece_10bins": 0.03326345204561949,
+      "occurrence_calibration": [
+        {
+          "bin": 0,
+          "n": 9,
+          "predicted": 0.08205778151750565,
+          "observed": 0.2222222222222222
+        },
+        {
+          "bin": 1,
+          "n": 70,
+          "predicted": 0.15325915813446045,
+          "observed": 0.11428571428571428
+        },
+        {
+          "bin": 2,
+          "n": 76,
+          "predicted": 0.2510454058647156,
+          "observed": 0.25
+        },
+        {
+          "bin": 3,
+          "n": 162,
+          "predicted": 0.3579094409942627,
+          "observed": 0.3395061728395062
+        },
+        {
+          "bin": 4,
+          "n": 190,
+          "predicted": 0.44851580262184143,
+          "observed": 0.39473684210526316
+        },
+        {
+          "bin": 5,
+          "n": 182,
+          "predicted": 0.5437842011451721,
+          "observed": 0.5824175824175825
+        },
+        {
+          "bin": 6,
+          "n": 140,
+          "predicted": 0.6574334502220154,
+          "observed": 0.6428571428571429
+        },
+        {
+          "bin": 7,
+          "n": 117,
+          "predicted": 0.74031662940979,
+          "observed": 0.7777777777777778
+        },
+        {
+          "bin": 8,
+          "n": 47,
+          "predicted": 0.8297051191329956,
+          "observed": 0.8723404255319149
+        },
+        {
+          "bin": 9,
+          "n": 7,
+          "predicted": 0.9233891367912292,
+          "observed": 1.0
+        }
+      ],
+      "severity_predicted_on_observed_positive": 14611.9658203125,
+      "severity_observed_positive": 15664.680544855264,
+      "high_loss_n": 45,
+      "high_loss_rmse": 78970.25331909177,
+      "high_loss_mean_error": -77379.75192986571,
+      "capped_n": 27,
+      "capped_rmse": 87685.15795541367,
+      "cap_frequency_observed": 0.027,
+      "cap_frequency_predicted": null
+    },
+    "Censored hurdle Gamma": {
+      "rmse": 18864.306630701103,
+      "mae": 9884.261339734694,
+      "predicted_mean": 7578.714131169089,
+      "actual_mean": 7738.3521891585,
+      "occurrence_predicted": 0.49887940287590027,
+      "occurrence_observed": 0.494,
+      "occurrence_brier": 0.20635341131984622,
+      "occurrence_logloss": 0.598895106267184,
+      "occurrence_ece_10bins": 0.03403886825591326,
+      "occurrence_calibration": [
+        {
+          "bin": 0,
+          "n": 5,
+          "predicted": 0.07942388206720352,
+          "observed": 0.0
+        },
+        {
+          "bin": 1,
+          "n": 63,
+          "predicted": 0.15858018398284912,
+          "observed": 0.1111111111111111
+        },
+        {
+          "bin": 2,
+          "n": 74,
+          "predicted": 0.2499525249004364,
+          "observed": 0.22972972972972974
+        },
+        {
+          "bin": 3,
+          "n": 166,
+          "predicted": 0.3547287881374359,
+          "observed": 0.3192771084337349
+        },
+        {
+          "bin": 4,
+          "n": 195,
+          "predicted": 0.4496923089027405,
+          "observed": 0.40512820512820513
+        },
+        {
+          "bin": 5,
+          "n": 187,
+          "predicted": 0.5414705276489258,
+          "observed": 0.5775401069518716
+        },
+        {
+          "bin": 6,
+          "n": 148,
+          "predicted": 0.6557956337928772,
+          "observed": 0.6621621621621622
+        },
+        {
+          "bin": 7,
+          "n": 114,
+          "predicted": 0.7447420954704285,
+          "observed": 0.7894736842105263
+        },
+        {
+          "bin": 8,
+          "n": 43,
+          "predicted": 0.8283622860908508,
+          "observed": 0.8604651162790697
+        },
+        {
+          "bin": 9,
+          "n": 5,
+          "predicted": 0.9174697995185852,
+          "observed": 1.0
+        }
+      ],
+      "severity_predicted_on_observed_positive": 15244.58873221991,
+      "severity_observed_positive": 15664.680544855264,
+      "high_loss_n": 45,
+      "high_loss_rmse": 76951.10068362691,
+      "high_loss_mean_error": -75201.58089026385,
+      "capped_n": 27,
+      "capped_rmse": 85376.12068536134,
+      "cap_frequency_observed": 0.027,
+      "cap_frequency_predicted": 0.014258676825905347
+    },
+    "Latent power-Gamma hurdle": {
+      "rmse": 18855.730400218043,
+      "mae": 10405.436885306814,
+      "predicted_mean": 8544.929184252072,
+      "actual_mean": 7738.3521891585,
+      "occurrence_predicted": 0.49927014112472534,
+      "occurrence_observed": 0.494,
+      "occurrence_brier": 0.20671068698465206,
+      "occurrence_logloss": 0.5998411230817438,
+      "occurrence_ece_10bins": 0.036196397557854657,
+      "occurrence_calibration": [
+        {
+          "bin": 0,
+          "n": 2,
+          "predicted": 0.07582809031009674,
+          "observed": 0.0
+        },
+        {
+          "bin": 1,
+          "n": 57,
+          "predicted": 0.16182760894298553,
+          "observed": 0.10526315789473684
+        },
+        {
+          "bin": 2,
+          "n": 79,
+          "predicted": 0.24893075227737427,
+          "observed": 0.21518987341772153
+        },
+        {
+          "bin": 3,
+          "n": 166,
+          "predicted": 0.3561389744281769,
+          "observed": 0.3192771084337349
+        },
+        {
+          "bin": 4,
+          "n": 197,
+          "predicted": 0.44960838556289673,
+          "observed": 0.40609137055837563
+        },
+        {
+          "bin": 5,
+          "n": 193,
+          "predicted": 0.5415794253349304,
+          "observed": 0.5751295336787565
+        },
+        {
+          "bin": 6,
+          "n": 157,
+          "predicted": 0.6557325720787048,
+          "observed": 0.6815286624203821
+        },
+        {
+          "bin": 7,
+          "n": 105,
+          "predicted": 0.7468044757843018,
+          "observed": 0.780952380952381
+        },
+        {
+          "bin": 8,
+          "n": 40,
+          "predicted": 0.8249732255935669,
+          "observed": 0.85
+        },
+        {
+          "bin": 9,
+          "n": 4,
+          "predicted": 0.9121603965759277,
+          "observed": 1.0
+        }
+      ],
+      "severity_predicted_on_observed_positive": 17189.472872053244,
+      "severity_observed_positive": 15664.680544855264,
+      "high_loss_n": 45,
+      "high_loss_rmse": 75312.30602105915,
+      "high_loss_mean_error": -73342.96922577685,
+      "capped_n": 27,
+      "capped_rmse": 83612.30247154835,
+      "cap_frequency_observed": 0.027,
+      "cap_frequency_predicted": 0.029214560948666268
+    }
+  }
+}

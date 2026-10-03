@@ -1,6 +1,6 @@
 # Evidence register
 
-Reviewed: **2026-10-02**. Check again before the event.
+Reviewed: **2026-10-03**. Check again before the event.
 
 Claims are attributed to their authors. Access to a source does not establish independent replication.
 
@@ -124,8 +124,17 @@ Govern, map, measure and manage; not a substitute for sector-specific rules.
 
 [Open source](../wave/Wave_Intelligence.pdf)
 
+## ZIG-PAPER — Wang: Latent-space statistical learning for semicontinuous outcomes
+
+**Date/version:** 2026-09-30 version 2; audited 2026-10-03. **Type:** Research preprint with independent educational audit.
+
+16-page preprint read; fixed-structure derivatives and bounded expectation independently checked. Counterexamples found for boundary saturated deviance and censored null-mean profiling. Our synthetic comparison is not a reproduction or a production superiority claim.
+
+[Open source](https://arxiv.org/abs/2608.26286v2)
+
 ## Content and review limitations
 
+- Latent-space ZIG: complete version-2 manuscript read; independent derivative, moment and counterexample tests run; two synthetic scenarios compared. No production validation.
 - Navier–Stokes: announcement, opening theorem and repository README inspected; no independent proof audit or Lean build.
 - Rentosertib: indexed primary-source passages inspected; full article access failed. No current regulatory-status claim is made.
 - Wave Intelligence: all 8 pages of the local PDF read; publication status and date are not asserted.
@@ -136,6 +145,6 @@ Govern, map, measure and manage; not a substitute for sector-specific rules.
 
 ## Rehearsal metadata
 
-The suggested script contains approximately **3188 English whitespace-delimited words**.
+The suggested script contains approximately **3172 English whitespace-delimited words**.
 The 30-minute schedule includes time beyond reading for diagrams, pauses and interaction.
 Read aloud before the event; adjust delivery without dropping evidence qualifiers.

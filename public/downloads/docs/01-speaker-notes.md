@@ -10,7 +10,7 @@ a guarantee of reading speed. Rehearse aloud and trim to your pace.
 
 | Slide | Window | Title |
 | --- | --- | --- |
-| 1 | 00:00–01:30 | What changes when AI can help us discover? |
+| 1 | 00:00–01:30 | From a paper to a prototype: what needs checking? |
 | 2 | 01:30–03:30 | A model becomes useful through a system |
 | 3 | 03:30–05:30 | Read the evidence before repeating the headline |
 | 4 | 05:30–08:00 | Navier–Stokes: a precise, attributed frontier claim |
@@ -27,36 +27,42 @@ a guarantee of reading speed. Rehearse aloud and trim to your pace.
 | 15 | 26:30–28:00 | Run one measured pilot in the next 30 days |
 | 16 | 28:00–30:00 | More ideas. Stronger evidence. Human responsibility. |
 
-## 1. What changes when AI can help us discover?
+## 1. From a paper to a prototype: what needs checking?
 
-**Window:** 00:00–01:30. **Evidence label:** Framing.
+**Window:** 00:00–01:30. **Evidence label:** Worked example · Research audit.
 
-**Key takeaway:** When AI participates in discovery, where does our value lie?
+**Key takeaway:** AI accelerates implementation; verification determines what we can trust.
 
 ### On screen
 
-- AI is entering parts of the research process.
-- The opportunity is broader than faster writing.
-- Our role: define worthwhile problems and establish trustworthy answers.
+- A $250,000 loss is recorded at a $100,000 reporting cap.
+- “At least” and “exactly” imply different statistical models.
+- Build the prototype, test the equations, and qualify the conclusions.
 
 ### Suggested spoken script
 
-Good afternoon, fellow Dalian University of Technology alumni. Let me begin with a practical question. If an AI system can help propose a proof, design an experiment, write software and prepare a technical report, where does our professional value move? For an engineering community, this question is especially concrete. Our work connects ideas to things that must function in the world. A beautiful answer is useful only when the design works, the evidence holds and someone can take responsibility for the result. Today I want to connect the frontier of AI research to those everyday responsibilities. We will look at mathematics, molecular science, research agents and professional work. We will also distinguish demonstrated results from proposed frameworks and from our own career recommendations. My central argument is that AI expands the space of ideas we can explore, while making verification more important. Please keep one task from your own work in mind throughout the talk. It might be a simulation, a literature review, a customer question or a difficult software change. At the end, I hope you can identify one useful experiment to run on that task.
+Good afternoon, fellow Dalian University of Technology alumni. Let me start with one insurance record. It says one hundred thousand dollars. The actual loss was two hundred and fifty thousand, but the reporting system applied a cap. Does that record mean exactly one hundred thousand, or at least one hundred thousand? That distinction changes what a model should learn.
 
-**Delivery cue:** Pause and invite the audience to think of one task; do not request confidential examples.
+We used a recent statistics preprint to explore AI-assisted research: read the paper, build an XGBoost prototype, check the equations, and compare models on synthetic data. The main derivatives checked out. We also found counterexamples to two claims about deviance and parameter profiling. The proposed model did not consistently beat the alternatives.
+
+That is why I chose this example. AI can help us move from a paper to working code. Our professional contribution is to preserve assumptions, design meaningful checks, and decide what the evidence supports. Keep one task from your own work in mind. Today we will connect this process to mathematics, scientific discovery, software, and the opportunities in our careers.
+
+**Delivery cue:** Pause after “exactly or at least?” Point to the verification loop. Keep the equations for questions afterward; the example is a synthetic demonstration.
 
 ### Visual flow
 
 ```mermaid
 flowchart LR
-  A[Meaningful problem] --> B[AI-supported proposals]
-  B --> C[Independent checks]
-  C --> D[Human interpretation]
-  D --> E[Action and learning]
-  E --> A
+  A[Read the paper] --> B[Preserve assumptions]
+  B --> C[Build the prototype]
+  C --> D[Check equations]
+  D --> E[Qualify conclusions]
+  D --> B
 ```
 
-Conceptual workflow: proposals become useful through evidence and accountable decisions.
+An educational audit: derivatives checked, two claims need correction, and synthetic comparisons do not establish a production winner.
+
+**Evidence:** [Wang: Latent-space statistical learning for semicontinuous outcomes](https://arxiv.org/abs/2608.26286v2)
 
 ## 2. A model becomes useful through a system
 
