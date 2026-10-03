@@ -2,6 +2,7 @@
 (() => {
   const $ = id => document.getElementById(id);
   const talk = window.TALK;
+  const speakerVersion = document.body.dataset.presentationVersion !== 'client';
   const flows = new Map(window.FLOWS.map(f => [f.id, f]));
   const sources = new Map(talk.sources.map(s => [s.id, s]));
   const el = (tag, text, cls) => {
@@ -50,8 +51,10 @@
     $('slide-flow').alt = `${f.title}: ${f.nodes.join(' → ')}. ${f.caption}`;
     $('slide-caption').textContent = f.caption;
     $('slide-sources').replaceChildren(references(s.sources), el('span', `Reviewed ${talk.reviewed}`));
-    $('slide-script').textContent = s.notes;
-    $('slide-cue').textContent = `Cue: ${s.cue}`;
+    if (speakerVersion) {
+      $('slide-script').textContent = s.notes;
+      $('slide-cue').textContent = `Cue: ${s.cue}`;
+    }
     $('slide-select').value = String(index);
     $('prev-slide').disabled = index === 0;
     $('next-slide').disabled = index === talk.slides.length - 1;
@@ -83,12 +86,13 @@
   $('next-slide').addEventListener('click', () => setSlide(index + 1));
   $('slide-select').addEventListener('change', e => setSlide(Number(e.target.value)));
   function toggleNotes() {
+    if (!speakerVersion) return;
     const visible = $('speaker-notes').hidden;
     $('speaker-notes').hidden = !visible;
     $('notes-toggle').setAttribute('aria-pressed', String(visible));
     document.querySelector('.deck-content').classList.toggle('has-notes', visible);
   }
-  $('notes-toggle').addEventListener('click', toggleNotes);
+  if (speakerVersion) $('notes-toggle').addEventListener('click', toggleNotes);
   $('fullscreen').addEventListener('click', async () => {
     try {
       if (document.fullscreenElement) await document.exitFullscreen();
@@ -107,7 +111,7 @@
     if (/^(INPUT|SELECT|TEXTAREA)$/.test(e.target.tagName)) return;
     if (e.key === 'ArrowRight') { e.preventDefault(); setSlide(index + 1); }
     if (e.key === 'ArrowLeft') { e.preventDefault(); setSlide(index - 1); }
-    if (e.key.toLowerCase() === 'n') toggleNotes();
+    if (speakerVersion && e.key.toLowerCase() === 'n') toggleNotes();
   });
   let accumulated = 0;
   let runningFrom = null;
@@ -194,7 +198,7 @@
     ['08-evidence-register', 'Evidence register', 'Sources, versions, review scope and factual limitations.'],
     ['09-fact-check-checklist', 'Pre-event fact check', 'Review claims before the event; keep automation separate from acceptance.']
   ];
-  documents.forEach(([id, title, description]) => { const card = el('article', undefined, 'card'); card.append(el('h3', title), el('p', description), link('Read document →', `read/${id}.html`)); $('document-list').append(card); });
+  documents.filter(([id]) => speakerVersion || !['01-speaker-notes', '07-production-and-publishing'].includes(id)).forEach(([id, title, description]) => { const card = el('article', undefined, 'card'); card.append(el('h3', title), el('p', description), link('Read document →', `read/${id}.html`)); $('document-list').append(card); });
   renderEvidence(); calculator(); drawMechanisms(); renderCareer(); renderSlide(); readHash();
   window.addEventListener('hashchange', readHash);
 })();

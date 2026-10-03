@@ -4,6 +4,9 @@ A 30-minute Dalian University of Technology alumni talk, in English.
 
 [Open the interactive website](https://pellera9.github.io/dutoaa-ai-frontier-talk/)
 
+- [Speaker version](https://pellera9.github.io/dutoaa-ai-frontier-talk/#slide-1)
+- [Client version](https://pellera9.github.io/dutoaa-ai-frontier-talk/client.html#slide-1)
+
 - [Speaker script](https://pellera9.github.io/dutoaa-ai-frontier-talk/read/01-speaker-notes.html)
 - [Presentation PDF](public/exports/presentation.pdf)
 - [Speaker-notes PDF](public/exports/speaker-notes.pdf)

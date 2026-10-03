@@ -17,6 +17,12 @@ Fullscreen depends on browser support. Presentation mode still works without it.
 
 The site also includes `print.html`, a complete 16-page printable deck. Use the browser’s Save as PDF option. After installing the browser-test dependency, `npm run export:pdf` creates a presentation PDF, speaker-notes PDF and preview screenshots in `_site/exports/`. These are generated local review artifacts; run the export again after changing content. The source-only ZIP remains portable without a PDF engine.
 
+## Choose the presentation version
+
+Use [the speaker version](https://pellera9.github.io/dutoaa-ai-frontier-talk/#slide-1) when rehearsing or presenting with delivery notes. Its existing URL and notes controls are retained. Share [the client version](https://pellera9.github.io/dutoaa-ai-frontier-talk/client.html#slide-1) with the audience: it contains the same 16 slides, diagrams, source references and navigation, with no speaker-notes button, notes panel or N shortcut. Its slide data omits scripts and delivery cues. Both versions are generated from the same talk source; no separate slide editing is needed.
+
+For local preview, the paths are `/index.html#slide-1` and `/client.html#slide-1`. Printable slides are shared. The public preparation documents remain available in the speaker version. Private narration stays in the private repository.
+
 ## Keep the performance reliable
 
 The core presentation, local SVG diagrams and interactions use no CDN, AI API or server runtime. After building, `_site/index.html` can also be opened directly as a file. The local server is preferable for consistent browser behavior. Optional Mermaid rendering in document readers requires internet; code remains visible if rendering fails. The optional renderer loads a pinned Mermaid release only when clicked.
