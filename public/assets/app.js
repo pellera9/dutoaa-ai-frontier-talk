@@ -44,7 +44,7 @@
     $('slide-section').textContent = `${String(index + 1).padStart(2, '0')} / ${talk.slides.length} · ${s.section} · ${time(starts[index])}–${time(starts[index] + s.seconds)}`;
     $('slide-status').textContent = s.status;
     $('slide-title').textContent = s.title;
-    $('slide-zh').textContent = s.zh;
+    $('slide-takeaway').textContent = s.takeaway;
     $('slide-points').replaceChildren(...s.points.map(p => el('li', p)));
     $('slide-flow').src = `assets/${s.visual}.svg`;
     $('slide-flow').alt = `${f.title}: ${f.nodes.join(' → ')}. ${f.caption}`;
@@ -183,7 +183,7 @@
   }
   $('career-select').addEventListener('change', renderCareer);
   const documents = [
-    ['00-abstract', 'Abstract & framing', 'Event description, audience outcomes and Chinese key messages.'],
+    ['00-abstract', 'Abstract & framing', 'Event description, audience outcomes and English key takeaways.'],
     ['01-speaker-notes', 'Timed speaker script', '16 slides, delivery cues, Mermaid flows and linked evidence.'],
     ['02-research-brief', 'Research brief', 'Mathematical scope, scientific examples and productivity interpretation.'],
     ['03-wave-intelligence', 'Wave Intelligence', 'Attributed repository contribution and the limits of mechanistic interpretation.'],

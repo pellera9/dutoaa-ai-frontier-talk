@@ -2,7 +2,7 @@
 
 **AI at the Frontier of Discovery: Opportunities and Challenges in the LLM Era**
 
-English script with Chinese key messages. Timing includes pauses, diagram explanation,
+English script with English key takeaways. Timing includes pauses, diagram explanation,
 brief interactions and a short panel handoff. The schedule is a rehearsal target, not
 a guarantee of reading speed. Rehearse aloud and trim to your pace.
 
@@ -31,7 +31,7 @@ a guarantee of reading speed. Rehearse aloud and trim to your pace.
 
 **Window:** 00:00–01:30. **Evidence label:** Framing.
 
-**中文核心信息:** 当 AI 开始参与发现，我们的价值在哪里？
+**Key takeaway:** When AI participates in discovery, where does our value lie?
 
 ### On screen
 
@@ -62,7 +62,7 @@ Conceptual workflow: proposals become useful through evidence and accountable de
 
 **Window:** 01:30–03:30. **Evidence label:** Explanation.
 
-**中文核心信息:** 模型能力要通过工具、数据和验证转化为价值。
+**Key takeaway:** Tools, data and verification turn model capabilities into value.
 
 ### On screen
 
@@ -96,7 +96,7 @@ Tool access and a stopping condition are explicit parts of the system.
 
 **Window:** 03:30–05:30. **Evidence label:** Recommendation.
 
-**中文核心信息:** 先判断证据，再传播结论。
+**Key takeaway:** Evaluate the evidence before repeating the claim.
 
 ### On screen
 
@@ -129,7 +129,7 @@ Different disciplines use different acceptance standards. These are questions, n
 
 **Window:** 05:30–08:00. **Evidence label:** Reported result.
 
-**中文核心信息:** 重大数学进展，要精确表述并接受独立检验。
+**Key takeaway:** Mathematical progress needs precise claims and independent scrutiny.
 
 ### On screen
 
@@ -164,7 +164,7 @@ Interpretation guide; this package does not certify a mathematical proof.
 
 **Window:** 08:00–10:00. **Evidence label:** Recommendation.
 
-**中文核心信息:** 把验证建设成基础设施。
+**Key takeaway:** Build verification into the infrastructure.
 
 ### On screen
 
@@ -199,7 +199,7 @@ Use checks capable of rejecting a generated result; select the reviewer and crit
 
 **Window:** 10:00–12:00. **Evidence label:** Peer-reviewed evidence.
 
-**中文核心信息:** 科学 AI 不只有大语言模型。
+**Key takeaway:** Scientific AI extends beyond large language models.
 
 ### On screen
 
@@ -234,7 +234,7 @@ A shape prediction does not by itself identify function, mechanism or therapeuti
 
 **Window:** 12:00–14:00. **Evidence label:** Peer-reviewed evidence.
 
-**中文核心信息:** 候选分子不等于获批药物，临床证据不可跳过。
+**Key takeaway:** A candidate molecule still needs clinical evidence.
 
 ### On screen
 
@@ -271,7 +271,7 @@ A simplified educational pipeline; stages and regulatory requirements differ by 
 
 **Window:** 14:00–16:00. **Evidence label:** Proposed framework.
 
-**中文核心信息:** 从预测与生成，走向可检验的机制假说。
+**Key takeaway:** Move from prediction and generation to testable mechanistic hypotheses.
 
 ### On screen
 
@@ -308,7 +308,7 @@ Original explanatory adaptation of Liu’s repository perspective, pp. 3–6; a 
 
 **Window:** 16:00–17:30. **Evidence label:** Mixed evidence.
 
-**中文核心信息:** 研究智能体需要来自真实世界的反馈。
+**Key takeaway:** Research agents need feedback from the real world.
 
 ### On screen
 
@@ -344,7 +344,7 @@ Conceptual abstraction of tool-connected discovery; simulation and physical vali
 
 **Window:** 17:30–19:30. **Evidence label:** Empirical evidence.
 
-**中文核心信息:** 衡量整个任务，而不是生成代码的速度。
+**Key takeaway:** Measure the complete task, including review and rework.
 
 ### On screen
 
@@ -379,7 +379,7 @@ Generation time is only one component. Acceptance includes review and integratio
 
 **Window:** 19:30–21:00. **Evidence label:** Empirical evidence.
 
-**中文核心信息:** 知识工作的收益取决于场景和质量。
+**Key takeaway:** Gains in knowledge work depend on context and quality.
 
 ### On screen
 
@@ -414,7 +414,7 @@ The final decision owner checks material claims and the completeness of the evid
 
 **Window:** 21:00–23:00. **Evidence label:** Illustrative opportunities.
 
-**中文核心信息:** 机会来自专业知识与 AI 能力的结合。
+**Key takeaway:** Combine domain expertise with AI capabilities.
 
 ### On screen
 
@@ -447,7 +447,7 @@ Illustrative suggestions for alumni; no claims about an existing DUT alumni prog
 
 **Window:** 23:00–25:00. **Evidence label:** Recommendation.
 
-**中文核心信息:** 会提问，更要会验证、会整合、会负责。
+**Key takeaway:** Learn to ask, verify, integrate and take responsibility.
 
 ### On screen
 
@@ -481,7 +481,7 @@ Recommended capabilities to practice together, rather than a forecast of job cou
 
 **Window:** 25:00–26:30. **Evidence label:** Recommendation.
 
-**中文核心信息:** 自主程度要与后果和验证能力相匹配。
+**Key takeaway:** Match autonomy to consequences and verification capacity.
 
 ### On screen
 
@@ -516,7 +516,7 @@ Suggested decision aid, not a numeric risk model or legal determination.
 
 **Window:** 26:30–28:00. **Evidence label:** Recommendation.
 
-**中文核心信息:** 30 天内做一个可衡量、可复盘的试点。
+**Key takeaway:** Run a measurable, reviewable pilot within 30 days.
 
 ### On screen
 
@@ -549,7 +549,7 @@ Recommended schedule. Expand, revise and stop are all legitimate outcomes.
 
 **Window:** 28:00–30:00. **Evidence label:** Synthesis.
 
-**中文核心信息:** 让 AI 扩展探索，让证据决定行动，让人承担责任。
+**Key takeaway:** Let AI expand exploration, evidence guide action and people retain responsibility.
 
 ### On screen
 

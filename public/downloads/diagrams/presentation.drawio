@@ -10,7 +10,7 @@
         <mxCell id="title" value="What changes when AI can help us discover?" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=52;fontStyle=1;fontColor=#eff6ff;" vertex="1" parent="1">
           <mxGeometry x="50" y="90" width="1500" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="zh" value="当 AI 开始参与发现，我们的价值在哪里？" style="text;html=1;whiteSpace=wrap;align=left;fontSize=28;fontColor=#b8a6ff;" vertex="1" parent="1">
+        <mxCell id="takeaway" value="When AI participates in discovery, where does our value lie?" style="text;html=1;whiteSpace=wrap;align=left;fontSize=28;fontColor=#b8a6ff;" vertex="1" parent="1">
           <mxGeometry x="50" y="225" width="1500" height="60" as="geometry" />
         </mxCell>
         <mxCell id="points" value="&lt;div style=&quot;margin-bottom:16px&quot;&gt;• AI is entering parts of the research process.&lt;/div&gt;&lt;div style=&quot;margin-bottom:16px&quot;&gt;• The opportunity is broader than faster writing.&lt;/div&gt;&lt;div style=&quot;margin-bottom:16px&quot;&gt;• Our role: define worthwhile problems and establish trustworthy answers.&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;fontColor=#eff6ff;fontSize=24;" vertex="1" parent="1">
@@ -71,7 +71,7 @@
         <mxCell id="title" value="A model becomes useful through a system" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=52;fontStyle=1;fontColor=#eff6ff;" vertex="1" parent="1">
           <mxGeometry x="50" y="90" width="1500" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="zh" value="模型能力要通过工具、数据和验证转化为价值。" style="text;html=1;whiteSpace=wrap;align=left;fontSize=28;fontColor=#b8a6ff;" vertex="1" parent="1">
+        <mxCell id="takeaway" value="Tools, data and verification turn model capabilities into value." style="text;html=1;whiteSpace=wrap;align=left;fontSize=28;fontColor=#b8a6ff;" vertex="1" parent="1">
           <mxGeometry x="50" y="225" width="1500" height="60" as="geometry" />
         </mxCell>
         <mxCell id="points" value="&lt;div style=&quot;margin-bottom:16px&quot;&gt;• LLM: generates language and other learned representations.&lt;/div&gt;&lt;div style=&quot;margin-bottom:16px&quot;&gt;• Reasoning workflow: spends effort exploring and checking steps.&lt;/div&gt;&lt;div style=&quot;margin-bottom:16px&quot;&gt;• Agent: uses tools, observes results and chooses further actions.&lt;/div&gt;&lt;div style=&quot;margin-bottom:16px&quot;&gt;• A fluent explanation does not establish correctness.&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;fontColor=#eff6ff;fontSize=24;" vertex="1" parent="1">
@@ -132,7 +132,7 @@
         <mxCell id="title" value="Read the evidence before repeating the headline" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=52;fontStyle=1;fontColor=#eff6ff;" vertex="1" parent="1">
           <mxGeometry x="50" y="90" width="1500" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="zh" value="先判断证据，再传播结论。" style="text;html=1;whiteSpace=wrap;align=left;fontSize=28;fontColor=#b8a6ff;" vertex="1" parent="1">
+        <mxCell id="takeaway" value="Evaluate the evidence before repeating the claim." style="text;html=1;whiteSpace=wrap;align=left;fontSize=28;fontColor=#b8a6ff;" vertex="1" parent="1">
           <mxGeometry x="50" y="225" width="1500" height="60" as="geometry" />
         </mxCell>
         <mxCell id="points" value="&lt;div style=&quot;margin-bottom:16px&quot;&gt;• Ask who made the claim and when.&lt;/div&gt;&lt;div style=&quot;margin-bottom:16px&quot;&gt;• Read the exact problem and assumptions.&lt;/div&gt;&lt;div style=&quot;margin-bottom:16px&quot;&gt;• Locate the paper, code, data or certificate.&lt;/div&gt;&lt;div style=&quot;margin-bottom:16px&quot;&gt;• Separate artifact checking, scientific acceptance and practical usefulness.&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;fontColor=#eff6ff;fontSize=24;" vertex="1" parent="1">
@@ -185,7 +185,7 @@
         <mxCell id="title" value="Navier–Stokes: a precise, attributed frontier claim" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=52;fontStyle=1;fontColor=#eff6ff;" vertex="1" parent="1">
           <mxGeometry x="50" y="90" width="1500" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="zh" value="重大数学进展，要精确表述并接受独立检验。" style="text;html=1;whiteSpace=wrap;align=left;fontSize=28;fontColor=#b8a6ff;" vertex="1" parent="1">
+        <mxCell id="takeaway" value="Mathematical progress needs precise claims and independent scrutiny." style="text;html=1;whiteSpace=wrap;align=left;fontSize=28;fontColor=#b8a6ff;" vertex="1" parent="1">
           <mxGeometry x="50" y="225" width="1500" height="60" as="geometry" />
         </mxCell>
         <mxCell id="points" value="&lt;div style=&quot;margin-bottom:16px&quot;&gt;• OpenAI announced a proposed solution on September 8, 2026.&lt;/div&gt;&lt;div style=&quot;margin-bottom:16px&quot;&gt;• The manuscript constructs finite-time blowup with smooth forcing and positive viscosity.&lt;/div&gt;&lt;div style=&quot;margin-bottom:16px&quot;&gt;• The exact forced formulation matters.&lt;/div&gt;&lt;div style=&quot;margin-bottom:16px&quot;&gt;• Independent acceptance and prize recognition are separate.&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;fontColor=#eff6ff;fontSize=24;" vertex="1" parent="1">
@@ -238,7 +238,7 @@
         <mxCell id="title" value="Verification is infrastructure for discovery" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=52;fontStyle=1;fontColor=#eff6ff;" vertex="1" parent="1">
           <mxGeometry x="50" y="90" width="1500" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="zh" value="把验证建设成基础设施。" style="text;html=1;whiteSpace=wrap;align=left;fontSize=28;fontColor=#b8a6ff;" vertex="1" parent="1">
+        <mxCell id="takeaway" value="Build verification into the infrastructure." style="text;html=1;whiteSpace=wrap;align=left;fontSize=28;fontColor=#b8a6ff;" vertex="1" parent="1">
           <mxGeometry x="50" y="225" width="1500" height="60" as="geometry" />
         </mxCell>
         <mxCell id="points" value="&lt;div style=&quot;margin-bottom:16px&quot;&gt;• Specify what a valid answer must satisfy.&lt;/div&gt;&lt;div style=&quot;margin-bottom:16px&quot;&gt;• Use checks that can reject the proposal.&lt;/div&gt;&lt;div style=&quot;margin-bottom:16px&quot;&gt;• Keep provenance, assumptions and failure cases.&lt;/div&gt;&lt;div style=&quot;margin-bottom:16px&quot;&gt;• Spend verification effort where errors matter most.&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;fontColor=#eff6ff;fontSize=24;" vertex="1" parent="1">
@@ -299,7 +299,7 @@
         <mxCell id="title" value="Scientific AI is a broader ecosystem than LLMs" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=52;fontStyle=1;fontColor=#eff6ff;" vertex="1" parent="1">
           <mxGeometry x="50" y="90" width="1500" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="zh" value="科学 AI 不只有大语言模型。" style="text;html=1;whiteSpace=wrap;align=left;fontSize=28;fontColor=#b8a6ff;" vertex="1" parent="1">
+        <mxCell id="takeaway" value="Scientific AI extends beyond large language models." style="text;html=1;whiteSpace=wrap;align=left;fontSize=28;fontColor=#b8a6ff;" vertex="1" parent="1">
           <mxGeometry x="50" y="225" width="1500" height="60" as="geometry" />
         </mxCell>
         <mxCell id="points" value="&lt;div style=&quot;margin-bottom:16px&quot;&gt;• AlphaFold 3 predicts structures of biomolecular complexes.&lt;/div&gt;&lt;div style=&quot;margin-bottom:16px&quot;&gt;• Specialized predictors and generators support different tasks.&lt;/div&gt;&lt;div style=&quot;margin-bottom:16px&quot;&gt;• LLMs can help connect literature, code and tools.&lt;/div&gt;&lt;div style=&quot;margin-bottom:16px&quot;&gt;• Structure, function, mechanism and clinical benefit require different evidence.&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;fontColor=#eff6ff;fontSize=24;" vertex="1" parent="1">
@@ -352,7 +352,7 @@
         <mxCell id="title" value="Drug discovery still ends in evidence from people" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=52;fontStyle=1;fontColor=#eff6ff;" vertex="1" parent="1">
           <mxGeometry x="50" y="90" width="1500" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="zh" value="候选分子不等于获批药物，临床证据不可跳过。" style="text;html=1;whiteSpace=wrap;align=left;fontSize=28;fontColor=#b8a6ff;" vertex="1" parent="1">
+        <mxCell id="takeaway" value="A candidate molecule still needs clinical evidence." style="text;html=1;whiteSpace=wrap;align=left;fontSize=28;fontColor=#b8a6ff;" vertex="1" parent="1">
           <mxGeometry x="50" y="225" width="1500" height="60" as="geometry" />
         </mxCell>
         <mxCell id="points" value="&lt;div style=&quot;margin-bottom:16px&quot;&gt;• AI can support target selection and candidate design.&lt;/div&gt;&lt;div style=&quot;margin-bottom:16px&quot;&gt;• Rentosertib has a published phase 2a IPF trial.&lt;/div&gt;&lt;div style=&quot;margin-bottom:16px&quot;&gt;• That study involved 71 patients and a 12-week treatment period.&lt;/div&gt;&lt;div style=&quot;margin-bottom:16px&quot;&gt;• Its primary objective was safety and tolerability; broader benefit needs further evidence.&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;fontColor=#eff6ff;fontSize=24;" vertex="1" parent="1">
@@ -405,7 +405,7 @@
         <mxCell id="title" value="From prediction and generation to testable mechanisms" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=52;fontStyle=1;fontColor=#eff6ff;" vertex="1" parent="1">
           <mxGeometry x="50" y="90" width="1500" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="zh" value="从预测与生成，走向可检验的机制假说。" style="text;html=1;whiteSpace=wrap;align=left;fontSize=28;fontColor=#b8a6ff;" vertex="1" parent="1">
+        <mxCell id="takeaway" value="Move from prediction and generation to testable mechanistic hypotheses." style="text;html=1;whiteSpace=wrap;align=left;fontSize=28;fontColor=#b8a6ff;" vertex="1" parent="1">
           <mxGeometry x="50" y="225" width="1500" height="60" as="geometry" />
         </mxCell>
         <mxCell id="points" value="&lt;div style=&quot;margin-bottom:16px&quot;&gt;• Repository contribution: Shengchao Liu’s Wave Intelligence perspective.&lt;/div&gt;&lt;div style=&quot;margin-bottom:16px&quot;&gt;• Connect text, structures and measurements through shared representations.&lt;/div&gt;&lt;div style=&quot;margin-bottom:16px&quot;&gt;• Model how a system evolves under conditions and interventions.&lt;/div&gt;&lt;div style=&quot;margin-bottom:16px&quot;&gt;• Compare alternative mechanisms using observable predictions.&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;fontColor=#eff6ff;fontSize=24;" vertex="1" parent="1">
@@ -466,7 +466,7 @@
         <mxCell id="title" value="Research agents need feedback from the world" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=52;fontStyle=1;fontColor=#eff6ff;" vertex="1" parent="1">
           <mxGeometry x="50" y="90" width="1500" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="zh" value="研究智能体需要来自真实世界的反馈。" style="text;html=1;whiteSpace=wrap;align=left;fontSize=28;fontColor=#b8a6ff;" vertex="1" parent="1">
+        <mxCell id="takeaway" value="Research agents need feedback from the real world." style="text;html=1;whiteSpace=wrap;align=left;fontSize=28;fontColor=#b8a6ff;" vertex="1" parent="1">
           <mxGeometry x="50" y="225" width="1500" height="60" as="geometry" />
         </mxCell>
         <mxCell id="points" value="&lt;div style=&quot;margin-bottom:16px&quot;&gt;• Coscientist demonstrated tool-connected laboratory workflows.&lt;/div&gt;&lt;div style=&quot;margin-bottom:16px&quot;&gt;• AlphaEvolve connects program proposals to automated evaluation.&lt;/div&gt;&lt;div style=&quot;margin-bottom:16px&quot;&gt;• The evaluator determines what progress means.&lt;/div&gt;&lt;div style=&quot;margin-bottom:16px&quot;&gt;• Simulation success needs an appropriate bridge to reality.&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;fontColor=#eff6ff;fontSize=24;" vertex="1" parent="1">
@@ -527,7 +527,7 @@
         <mxCell id="title" value="In software, measure the whole task" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=52;fontStyle=1;fontColor=#eff6ff;" vertex="1" parent="1">
           <mxGeometry x="50" y="90" width="1500" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="zh" value="衡量整个任务，而不是生成代码的速度。" style="text;html=1;whiteSpace=wrap;align=left;fontSize=28;fontColor=#b8a6ff;" vertex="1" parent="1">
+        <mxCell id="takeaway" value="Measure the complete task, including review and rework." style="text;html=1;whiteSpace=wrap;align=left;fontSize=28;fontColor=#b8a6ff;" vertex="1" parent="1">
           <mxGeometry x="50" y="225" width="1500" height="60" as="geometry" />
         </mxCell>
         <mxCell id="points" value="&lt;div style=&quot;margin-bottom:16px&quot;&gt;• AI can assist drafting, debugging, tests and code exploration.&lt;/div&gt;&lt;div style=&quot;margin-bottom:16px&quot;&gt;• METR’s early-2025 experiment found 19% longer task time in its setting.&lt;/div&gt;&lt;div style=&quot;margin-bottom:16px&quot;&gt;• The February 2026 follow-up identifies major measurement biases.&lt;/div&gt;&lt;div style=&quot;margin-bottom:16px&quot;&gt;• Measure current tools on your own tasks, including review and rework.&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;fontColor=#eff6ff;fontSize=24;" vertex="1" parent="1">
@@ -580,7 +580,7 @@
         <mxCell id="title" value="Knowledge work depends on context and quality" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=52;fontStyle=1;fontColor=#eff6ff;" vertex="1" parent="1">
           <mxGeometry x="50" y="90" width="1500" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="zh" value="知识工作的收益取决于场景和质量。" style="text;html=1;whiteSpace=wrap;align=left;fontSize=28;fontColor=#b8a6ff;" vertex="1" parent="1">
+        <mxCell id="takeaway" value="Gains in knowledge work depend on context and quality." style="text;html=1;whiteSpace=wrap;align=left;fontSize=28;fontColor=#b8a6ff;" vertex="1" parent="1">
           <mxGeometry x="50" y="225" width="1500" height="60" as="geometry" />
         </mxCell>
         <mxCell id="points" value="&lt;div style=&quot;margin-bottom:16px&quot;&gt;• A support-agent study found heterogeneous productivity gains.&lt;/div&gt;&lt;div style=&quot;margin-bottom:16px&quot;&gt;• Its November 2024 manuscript version reports 15% on average.&lt;/div&gt;&lt;div style=&quot;margin-bottom:16px&quot;&gt;• That metric is issues resolved per hour in one work setting.&lt;/div&gt;&lt;div style=&quot;margin-bottom:16px&quot;&gt;• Transfer requires access to relevant knowledge and quality checks.&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;fontColor=#eff6ff;fontSize=24;" vertex="1" parent="1">
@@ -633,7 +633,7 @@
         <mxCell id="title" value="Find the opportunity inside your discipline" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=52;fontStyle=1;fontColor=#eff6ff;" vertex="1" parent="1">
           <mxGeometry x="50" y="90" width="1500" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="zh" value="机会来自专业知识与 AI 能力的结合。" style="text;html=1;whiteSpace=wrap;align=left;fontSize=28;fontColor=#b8a6ff;" vertex="1" parent="1">
+        <mxCell id="takeaway" value="Combine domain expertise with AI capabilities." style="text;html=1;whiteSpace=wrap;align=left;fontSize=28;fontColor=#b8a6ff;" vertex="1" parent="1">
           <mxGeometry x="50" y="225" width="1500" height="60" as="geometry" />
         </mxCell>
         <mxCell id="points" value="&lt;div style=&quot;margin-bottom:16px&quot;&gt;• Engineering: explore alternatives; check constraints and simulation validity.&lt;/div&gt;&lt;div style=&quot;margin-bottom:16px&quot;&gt;• Science: organize evidence; design discriminating experiments.&lt;/div&gt;&lt;div style=&quot;margin-bottom:16px&quot;&gt;• Software: propose changes; measure integration quality.&lt;/div&gt;&lt;div style=&quot;margin-bottom:16px&quot;&gt;• Leadership: redesign workflows; retain accountable owners.&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;fontColor=#eff6ff;fontSize=24;" vertex="1" parent="1">
@@ -686,7 +686,7 @@
         <mxCell id="title" value="Build the skills that make assistance dependable" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=52;fontStyle=1;fontColor=#eff6ff;" vertex="1" parent="1">
           <mxGeometry x="50" y="90" width="1500" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="zh" value="会提问，更要会验证、会整合、会负责。" style="text;html=1;whiteSpace=wrap;align=left;fontSize=28;fontColor=#b8a6ff;" vertex="1" parent="1">
+        <mxCell id="takeaway" value="Learn to ask, verify, integrate and take responsibility." style="text;html=1;whiteSpace=wrap;align=left;fontSize=28;fontColor=#b8a6ff;" vertex="1" parent="1">
           <mxGeometry x="50" y="225" width="1500" height="60" as="geometry" />
         </mxCell>
         <mxCell id="points" value="&lt;div style=&quot;margin-bottom:16px&quot;&gt;• Problem formulation and domain judgment.&lt;/div&gt;&lt;div style=&quot;margin-bottom:16px&quot;&gt;• Data literacy, provenance and uncertainty.&lt;/div&gt;&lt;div style=&quot;margin-bottom:16px&quot;&gt;• Evaluation, experimentation and tool integration.&lt;/div&gt;&lt;div style=&quot;margin-bottom:16px&quot;&gt;• Communication, accountability and continued learning.&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;fontColor=#eff6ff;fontSize=24;" vertex="1" parent="1">
@@ -747,7 +747,7 @@
         <mxCell id="title" value="Match autonomy to consequences" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=52;fontStyle=1;fontColor=#eff6ff;" vertex="1" parent="1">
           <mxGeometry x="50" y="90" width="1500" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="zh" value="自主程度要与后果和验证能力相匹配。" style="text;html=1;whiteSpace=wrap;align=left;fontSize=28;fontColor=#b8a6ff;" vertex="1" parent="1">
+        <mxCell id="takeaway" value="Match autonomy to consequences and verification capacity." style="text;html=1;whiteSpace=wrap;align=left;fontSize=28;fontColor=#b8a6ff;" vertex="1" parent="1">
           <mxGeometry x="50" y="225" width="1500" height="60" as="geometry" />
         </mxCell>
         <mxCell id="points" value="&lt;div style=&quot;margin-bottom:16px&quot;&gt;• Confident errors and unsupported citations.&lt;/div&gt;&lt;div style=&quot;margin-bottom:16px&quot;&gt;• Sensitive data and malicious instructions in retrieved content.&lt;/div&gt;&lt;div style=&quot;margin-bottom:16px&quot;&gt;• Unequal outcomes, deskilling and unclear responsibility.&lt;/div&gt;&lt;div style=&quot;margin-bottom:16px&quot;&gt;• Use bounded permissions, evidence checks and accountable review.&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;fontColor=#eff6ff;fontSize=24;" vertex="1" parent="1">
@@ -800,7 +800,7 @@
         <mxCell id="title" value="Run one measured pilot in the next 30 days" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=52;fontStyle=1;fontColor=#eff6ff;" vertex="1" parent="1">
           <mxGeometry x="50" y="90" width="1500" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="zh" value="30 天内做一个可衡量、可复盘的试点。" style="text;html=1;whiteSpace=wrap;align=left;fontSize=28;fontColor=#b8a6ff;" vertex="1" parent="1">
+        <mxCell id="takeaway" value="Run a measurable, reviewable pilot within 30 days." style="text;html=1;whiteSpace=wrap;align=left;fontSize=28;fontColor=#b8a6ff;" vertex="1" parent="1">
           <mxGeometry x="50" y="225" width="1500" height="60" as="geometry" />
         </mxCell>
         <mxCell id="points" value="&lt;div style=&quot;margin-bottom:16px&quot;&gt;• Week 1: choose a task, owner and baseline.&lt;/div&gt;&lt;div style=&quot;margin-bottom:16px&quot;&gt;• Week 2: define inputs, checks and bounded access.&lt;/div&gt;&lt;div style=&quot;margin-bottom:16px&quot;&gt;• Week 3: compare matched tasks and record failures.&lt;/div&gt;&lt;div style=&quot;margin-bottom:16px&quot;&gt;• Week 4: decide to expand, revise or stop.&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;fontColor=#eff6ff;fontSize=24;" vertex="1" parent="1">
@@ -853,7 +853,7 @@
         <mxCell id="title" value="More ideas. Stronger evidence. Human responsibility." style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=52;fontStyle=1;fontColor=#eff6ff;" vertex="1" parent="1">
           <mxGeometry x="50" y="90" width="1500" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="zh" value="让 AI 扩展探索，让证据决定行动，让人承担责任。" style="text;html=1;whiteSpace=wrap;align=left;fontSize=28;fontColor=#b8a6ff;" vertex="1" parent="1">
+        <mxCell id="takeaway" value="Let AI expand exploration, evidence guide action and people retain responsibility." style="text;html=1;whiteSpace=wrap;align=left;fontSize=28;fontColor=#b8a6ff;" vertex="1" parent="1">
           <mxGeometry x="50" y="225" width="1500" height="60" as="geometry" />
         </mxCell>
         <mxCell id="points" value="&lt;div style=&quot;margin-bottom:16px&quot;&gt;• Use AI to widen the space of possibilities.&lt;/div&gt;&lt;div style=&quot;margin-bottom:16px&quot;&gt;• Use evidence to decide what deserves action.&lt;/div&gt;&lt;div style=&quot;margin-bottom:16px&quot;&gt;• Build your career around judgment and reliable execution.&lt;/div&gt;&lt;div style=&quot;margin-bottom:16px&quot;&gt;• Panel question: which alumni problem has both value and a credible evaluator?&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;fontColor=#eff6ff;fontSize=24;" vertex="1" parent="1">

@@ -1,6 +1,6 @@
 # AI at the Frontier of Discovery
 
-A 30-minute Dalian University of Technology alumni talk, in English with Chinese key messages.
+A 30-minute Dalian University of Technology alumni talk, in English.
 
 [Open the interactive website](https://pellera9.github.io/dutoaa-ai-frontier-talk/)
 
@@ -12,6 +12,6 @@ A 30-minute Dalian University of Technology alumni talk, in English with Chinese
 
 The website includes evidence filtering, a rehearsal timer, speaker notes, alumni career examples and synthetic teaching demos. Sources were reviewed through October 2, 2026. Research claims remain attributed and qualified.
 
-This public repository contains the generated presentation artifact. The original source repository remains private. The original Wave Intelligence PDF is not redistributed; an attributed explanation is included. The included Chinese font subset uses the license in public/assets/FONT-LICENSE.txt.
+This public repository contains the generated presentation artifact. The original source repository remains private. The original Wave Intelligence PDF is not redistributed; an attributed explanation is included.
 
 Publish with the manual **Publish presentation** GitHub Actions workflow. This artifact is generated from the source package; make durable content edits in the source repository and prepare a fresh reviewed artifact.

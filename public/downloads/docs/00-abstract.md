@@ -1,6 +1,6 @@
 # AI at the Frontier of Discovery: Opportunities and Challenges in the LLM Era
 
-**Audience:** Dalian University of Technology alumni (大工校友). **Format:** 30 minutes including brief audience participation and a panel handoff. **Language:** English with Chinese key messages. **Evidence review date:** October 2, 2026, America/Los_Angeles. Event date and speaker biography have not been supplied.
+**Audience:** Dalian University of Technology alumni. **Format:** 30 minutes including brief audience participation and a panel handoff. **Language:** English. **Evidence review date:** October 2, 2026, America/Los_Angeles. Event date and speaker biography have not been supplied.
 
 ## Recommended abstract
 
@@ -8,9 +8,9 @@ Large language models are becoming components of systems that reason, use tools 
 
 The dated mathematical reference is attributed to [OpenAI’s announcement](https://openai.com/index/navier-stokes-solution/); discussion of independent acceptance is grounded in [Clay’s prize rules](https://www.claymath.org/millennium-problems/rules/).
 
-## 中文核心信息
+## Core message
 
-AI 正在从对话工具发展为研究与工作流程的一部分。对大工校友而言，机会在于把专业知识、真实问题、可信数据和可检验的方法结合起来。面对重大突破，应区分“提出结果”“发布验证材料”“获得独立认可”和“形成实际价值”。让 AI 扩展探索，让证据决定行动，让人承担责任。
+AI is becoming part of research and professional workflows. For alumni, opportunities come from combining domain knowledge, real problems, reliable data and testable methods. Distinguish proposed results, published verification artifacts, independent acceptance and practical value. Use AI to expand exploration, evidence to guide action and people to retain responsibility.
 
 ## Audience outcomes
 
@@ -21,7 +21,7 @@ AI 正在从对话工具发展为研究与工作流程的一部分。对大工�
 
 ## One-sentence introduction for the host
 
-Our speaker will explore how AI is entering discovery and professional work, and how 大工校友 can turn that progress into useful opportunities through domain knowledge, rigorous verification and responsible adoption.
+Our speaker will explore how AI is entering discovery and professional work, and how DUT alumni can turn that progress into useful opportunities through domain knowledge, rigorous verification and responsible adoption.
 
 ## Editorial boundary
 

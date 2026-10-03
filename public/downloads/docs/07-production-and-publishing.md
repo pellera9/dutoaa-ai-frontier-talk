@@ -2,7 +2,7 @@
 
 ## Deliver the talk
 
-The main schedule is exactly 30 minutes across 16 slides, including brief interaction and the final panel handoff. Speak in English and display the Chinese key message on each slide. The script is a starting point; rehearse aloud at your own pace.
+The main schedule is exactly 30 minutes across 16 slides, including brief interaction and the final panel handoff. Speak in English and display the English key takeaway on each slide. The script is a starting point; rehearse aloud at your own pace.
 
 1. Build: `python3 scripts/build.py`.
 2. Preview: `python3 -m http.server 8000 --directory _site --bind 127.0.0.1`.
@@ -20,8 +20,6 @@ The site also includes `print.html`, a complete 16-page printable deck. Use the 
 ## Keep the performance reliable
 
 The core presentation, local SVG diagrams and interactions use no CDN, AI API or server runtime. After building, `_site/index.html` can also be opened directly as a file. The local server is preferable for consistent browser behavior. Optional Mermaid rendering in document readers requires internet; code remains visible if rendering fails. The optional renderer loads a pinned Mermaid release only when clicked.
-
-A compact local Chinese font subset supports the current bilingual text, including PDF export on a Linux host without Chinese fonts. Its license is in `site/assets/FONT-LICENSE.txt`. The validator checks Chinese-character coverage. When adding new Chinese text, install `fonttools` for the optional maintenance script, obtain the full NotoSansSC variable font from [Google Fonts](https://github.com/google/fonts/tree/main/ofl/notosanssc), and run `python3 scripts/subset_font.py --source /path/to/NotoSansSC.ttf`. Normal builds use the committed subset and need no font tools.
 
 Before the event, verify projector readability, rehearse transitions, download the ZIP and keep a local copy of `_site`. Use the synthetic calculator briefly. If time is short, read its static example from the playbook. Avoid a live frontier-model demonstration that could introduce unpredictable latency, cost or unsupported facts.
 
